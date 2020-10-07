@@ -2,14 +2,22 @@ import React from 'react';
 
 const themeColours = {
 	light: {
-		textColor: '#282c34',
 		backgroundColor: '#eeeeee',
 		linkColor: '#0066cc',
+		textColor: '#282c34',
+		navBackgroundColor: '#d7dadd',
+		navBorder: '1px solid #a6aaac',
+		hoverFilter: 'brightness(0.95)',
+		navShadow: '0px 0px 10px 2px #77777788',
 	},
 	dark: {
-		textColor: '#eeeeee',
 		backgroundColor: '#282c34',
 		linkColor: '#61dafb',
+		textColor: '#eeeeee',
+		navBackgroundColor: '#161921',
+		navBorder: '1px solid #333842',
+		hoverFilter: 'brightness(1.15)',
+		navShadow: '0px 0px 10px 2px #00000088',
 	},
 };
 

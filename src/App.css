@@ -6,10 +6,9 @@
 	--textColor: #eeeeee;
 	--navSize: 64px;
 	--navBackgroundColor: #1f2229;
-	--navBorder: 0.5vmin solid blue;
-	--buttonColor: #333842;
-	--navBorderRadius: 5px;
-	--speed: 500ms;
+	--navBorder: 1px solid #333842;
+	--hoverFilter: brightness(1.2);
+	--navShadow: 0px 0px 10px 5px #000000aa;
 }
 
 body {
@@ -19,116 +18,52 @@ body {
 	transition: background-color 100ms linear;
 	transition: color 100ms linear;
 	text-align: center;
+	margin: 0;
 }
 
 a {
 	color: var(--linkColor);
+	text-decoration: none;
+	transition: filter 250ms ease;
 }
 
+a:hover {
+	filter: var(--hoverFilter);
+}
+
+/* NAVBAR */
 .Navbar {
+	max-width: auto;
 	height: var(--navSize);
 	background-color: var(--navBackgroundColor);
-	padding: 0 1rem;
+	display: flex;
+	justify-content: center;
 	border-bottom: var(--navBorder);
+	box-shadow: var(--navShadow);
 }
 
-.Navbar-nav {
+.NavbarList {
 	max-width: 100%;
 	height: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 	display: flex;
-	justify-content: flex-end;
 }
 
-.NavItem {
-	width: calc(var(--navSize) * 0.8);
-	display: flex;
-	align-items: center;
-	list-style: decimal;
-}
-
-.IconButton {
-	--buttonSize: calc(var(--navSize) * 0.5);
-	width: var(--buttonSize);
-	height: var(--buttonSize);
-	background-color: var(--buttonColor);
-	border-radius: 50%;
-	padding: 5px;
-	margin: 2px;
-	display: flex;
+.NavbarItem {
+	width: auto;
 	align-items: center;
 	justify-content: center;
-	text-decoration: none;
-	transition: filter 300ms;
-}
-
-.IconButton:hover {
-	filter: brightness(1.2);
-}
-
-.Dropdown {
-	position: absolute;
-	top: var(--navSize);
-	width: 200px;
-	transform: translateX(-75%);
 	background-color: var(--navBackgroundColor);
-	border-bottom: var(--navBorder);
-	border-radius: var(--navBorderRadius);
-	padding: 1rem;
-	overflow: hidden;
-	transition: height var(--speed) ease;
+	padding: calc(var(--navSize) * 0.5 - 0.7em);
+	transition: filter 250ms;
+	font-weight: normal;
+	color: var(--textColor);
+	text-decoration: none;
+	font-size: 18px;
 }
 
-.MenuItem {
-	height: 50px;
-	display: flex;
-	align-items: center;
-	border-radius: var(--navBorderRadius);
-	transition: background var(--speed);
-	padding: 0.5rem;
-}
-
-.MenuItem:hover {
-	background-color: #455565;
-}
-
-.IconRight {
-	margin-left: auto;
-}
-
-.MenuPrimary-enter {
-	position: absolute;
-	transform: translateX(-110%);
-}
-
-.MenuPrimary-enter-active {
-	transform: translateX(-0%);
-	transition: all var(--speed) ease;
-}
-
-.MenuPrimary-exit {
-	position: absolute;
-}
-
-.MenuPrimary-exit-active {
-	transform: translateX(150%);
-	transition: all var(--speed) ease;
-}
-
-.MenuSecondary-enter {
-	position: absolute;
-	transform: translateX(-110%);
-}
-
-.MenuSecondary-enter-active {
-	transform: translateX(-0%);
-	transition: all var(--speed) ease;
-}
-
-.MenuSecondary-exit {
-	position: absolute;
-}
-
-.MenuSecondary-exit-active {
-	transform: translateX(150%);
-	transition: all var(--speed) ease;
+.NavbarItem:hover {
+	filter: var(--hoverFilter);
 }
