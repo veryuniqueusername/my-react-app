@@ -1,10 +1,12 @@
 import React from 'react';
-import { ThemeProvider, useTheme } from './ThemeContext';
-import './App.css';
-import './Navbar';
+import { BsCalendar, BsInfoSquare, BsTable } from 'react-icons/bs';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { ThemeProvider } from './ThemeContext';
+import './App.css';
 import { Navbar, NavbarItem } from './Navbar';
-import { BsFillCalendarFill } from 'react-icons/bs';
+import Calendar from './Calendar';
+import Schedule from './Schedule';
+import Info from './Info';
 
 export default function App() {
 	return (
@@ -12,53 +14,36 @@ export default function App() {
 			<ThemeProvider>
 				<Navbar>
 					<Link to="/">
-						<NavbarItem>Home</NavbarItem>
+						<NavbarItem>
+							<BsTable className="Icon" />
+							Schema
+						</NavbarItem>
 					</Link>
 					<Link to="/calendar">
 						<NavbarItem>
-							<BsFillCalendarFill />
-							Calendar
+							<BsCalendar className="Icon" />
+							Kalender
 						</NavbarItem>
 					</Link>
 					<Link to="/">
-						<NavbarItem>second home</NavbarItem>
+						<NavbarItem>
+							<BsInfoSquare className="Icon" />
+							Info
+						</NavbarItem>
 					</Link>
 				</Navbar>
 				<Switch>
 					<Route exact path="/">
-						<Page />
+						<Calendar />
 					</Route>
-					<Route path="/calendar">
-						<PageDos />
+					<Route path="/schedule">
+						<Schedule />
+					</Route>
+					<Route path="/info">
+						<Info />
 					</Route>
 				</Switch>
 			</ThemeProvider>
 		</Router>
-	);
-}
-
-function Page() {
-	const { theme, setTheme } = useTheme();
-	setTheme(localStorage.getItem('theme') === 'dark' ? 'dark' : 'light');
-	return (
-		<div>
-			<h1 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-				{theme}
-			</h1>
-			<a href="#!">Test</a>
-		</div>
-	);
-}
-
-function PageDos() {
-	const { theme, setTheme } = useTheme();
-	setTheme(localStorage.getItem('theme') === 'dark' ? 'dark' : 'light');
-	return (
-		<div>
-			<h1 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-				{theme}
-			</h1>
-			<a href="#!">Test number two</a>
-		</div>
 	);
 }

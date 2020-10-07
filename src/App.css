@@ -9,6 +9,8 @@
 	--navBorder: 1px solid #333842;
 	--hoverFilter: brightness(1.2);
 	--navShadow: 0px 0px 10px 5px #000000aa;
+	--enabledColor: #316427;
+	--disabledColor: #ad4040;
 }
 
 body {
@@ -66,4 +68,28 @@ a:hover {
 
 .NavbarItem:hover {
 	filter: var(--hoverFilter);
+}
+
+.Icon {
+	padding-left: 5px;
+	padding-right: 5px;
+	transform: translateY(2px);
+}
+
+svg.dark {
+	color: var(--enabledColor);
+	height: calc(var(--navSize) * 0.8);
+	width: calc(var(--navSize) * 0.8);
+	transform: translateY(calc(var(--navSize) * 0.1));
+	right: calc(var(--navSize) * 0.25);
+	position: absolute;
+}
+
+svg.light {
+	color: var(--disabledColor);
+	height: calc(var(--navSize) * 0.8);
+	width: calc(var(--navSize) * 0.8);
+	transform: translateY(calc(var(--navSize) * 0.1)) rotate(180deg);
+	right: calc(var(--navSize) * 0.25);
+	position: absolute;
 }
