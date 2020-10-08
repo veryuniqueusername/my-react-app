@@ -11,6 +11,7 @@ import Info from './Info';
 export default function App() {
 	return (
 		<Router>
+			<h1>test</h1>
 			<ThemeProvider>
 				<Navbar>
 					<Link to="/schedule">

@@ -1,52 +1,44 @@
 {
-  "name": "my-react-app",
-  "version": "1.0.0",
-  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/aeaf838b-ded4-4763-8e6f-79179a80febc/deploy-status)](https://app.netlify.com/sites/insertname/deploys)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/veryuniqueusername/my-react-app.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/veryuniqueusername/my-react-app/issues"
-  },
-  "homepage": "https://github.com/veryuniqueusername/my-react-app#readme",
-  "dependencies": {
-    "@types/jest": "^26.0.14",
-    "@types/node": "^14.11.5",
-    "@types/react": "^16.9.51",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-router-dom": "^5.1.6",
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-icons": "^3.11.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
-    "typescript": "^4.0.3"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/react-router": "^5.1.8"
-  }
+	"name": "my-react-app",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build"
+	},
+	"dependencies": {
+		"@types/eslint": "^7.2.4",
+		"@types/jest": "^26.0.14",
+		"@types/node": "^14.11.5",
+		"@types/react": "^16.9.51",
+		"@types/react-dom": "^16.9.8",
+		"@types/react-router-dom": "^5.1.6",
+		"babel-cli": "^6.26.0",
+		"babel-preset-react-app": "^3.1.2",
+		"eslint": "^7.10.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-icons": "^3.11.0",
+		"react-router": "^5.2.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.3",
+		"typescript": "^4.0.3"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"devDependencies": {
+		"@types/react-router": "^5.1.8"
+	}
 }
