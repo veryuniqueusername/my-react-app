@@ -4,7 +4,7 @@ export default function Calendar() {
 	return (
 		<div>
 			<h1>Some text</h1>
-			<a href="#!">Test</a>
+			<a href="#!">Calendar</a>
 		</div>
 	);
 }
