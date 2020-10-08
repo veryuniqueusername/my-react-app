@@ -13,7 +13,7 @@ export default function App() {
 		<Router>
 			<ThemeProvider>
 				<Navbar>
-					<Link to="/">
+					<Link to="/schedule">
 						<NavbarItem>
 							<BsTable className="Icon" />
 							Schema
@@ -25,7 +25,7 @@ export default function App() {
 							Kalender
 						</NavbarItem>
 					</Link>
-					<Link to="/">
+					<Link to="/info">
 						<NavbarItem>
 							<BsInfoSquare className="Icon" />
 							Info
@@ -33,7 +33,7 @@ export default function App() {
 					</Link>
 				</Navbar>
 				<Switch>
-					<Route exact path="/">
+					<Route path="/calendar">
 						<Calendar />
 					</Route>
 					<Route path="/schedule">
