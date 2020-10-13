@@ -1,3 +1,9 @@
+.Schedule {
+	display: flex;
+	flex-direction: column;
+	columns: auto 5;
+}
+
 .EV {
 	background-color: aliceblue;
 	color: black;

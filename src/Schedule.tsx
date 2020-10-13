@@ -5,7 +5,9 @@ export default function Schedule() {
 	return (
 		<div>
 			<h1>Schema</h1>
-			<ScheduleViewer />
+			<div className="Schedule">
+				<ScheduleViewer />
+			</div>
 		</div>
 	);
 }
@@ -37,23 +39,23 @@ function scheduleCalc(
 	start: Array<number>,
 	end: Array<number>
 ) {
-	var starting = start[0] * 60 + start[1];
+	var starting = (start[0] * 60 + start[1]) * (5 / 27);
 
 	if (name === 'LANG') {
 		return (
-			<div className={name}>
+			<rect className={name}>
 				<span>SP MSG 128</span>
 				<span>FR JDN 116</span>
 				<span>TY AAD 118</span>
 				<span>SV/EN EWM 212</span>
 				<span>SV/EN FJT 231</span>
-			</div>
+			</rect>
 		);
 	}
 
 	return (
-		<div className={name}>
+		<rect className={name}>
 			{name} {teacher} {room}
-		</div>
+		</rect>
 	);
 }
