@@ -6,30 +6,51 @@ export default function Schedule() {
 		<div>
 			<h1>Schema</h1>
 			<div className="Schedule">
-				<ScheduleViewer />
+				<ScheduleViewer day="monday" className="Day" />
+				<ScheduleViewer day="tuesday" className="Day" />
+				<ScheduleViewer day="wednesday" className="Day" />
+				<ScheduleViewer day="thursday" className="Day" />
+				<ScheduleViewer day="friday" className="Day" />
 			</div>
 		</div>
 	);
 }
 
-function ScheduleViewer() {
+function ScheduleViewer(props) {
 	const SCHEDULE = require('./Schedule.json');
 	var items: any = [];
+	var dayIndex: number = 0;
 
-	for (let day = 0; day < SCHEDULE.length; day++) {
-		for (let data = 0; data < SCHEDULE[day].length; data++) {
-			items.push(
-				scheduleCalc(
-					SCHEDULE[day][data].subject,
-					SCHEDULE[day][data].teacher,
-					SCHEDULE[day][data].room,
-					SCHEDULE[day][data].start,
-					SCHEDULE[day][data].end
-				)
-			);
-		}
+	switch (props.day) {
+		case 'monday':
+			dayIndex = 0;
+			break;
+		case 'tuesday':
+			dayIndex = 1;
+			break;
+		case 'wednesday':
+			dayIndex = 2;
+			break;
+		case 'thursday':
+			dayIndex = 3;
+			break;
+		case 'friday':
+			dayIndex = 4;
+			break;
 	}
-	return <div className="Schedule"> {items}</div>;
+
+	for (let data = 0; data < SCHEDULE[dayIndex].length; data++) {
+		items.push(
+			scheduleCalc(
+				SCHEDULE[dayIndex][data].subject,
+				SCHEDULE[dayIndex][data].teacher,
+				SCHEDULE[dayIndex][data].room,
+				SCHEDULE[dayIndex][data].start,
+				SCHEDULE[dayIndex][data].end
+			)
+		);
+	}
+	return <div className="Day">{items}</div>;
 }
 
 function scheduleCalc(
@@ -40,22 +61,36 @@ function scheduleCalc(
 	end: Array<number>
 ) {
 	var starting = (start[0] * 60 + start[1]) * (5 / 27);
+	var ending = (end[0] * 60 + end[1]) * (5 / 27);
+	var length = ending - starting;
+	var classes = name + ' Subject';
+	console.log(starting);
+	var styles = {
+		height: length + '%',
+	};
 
 	if (name === 'LANG') {
 		return (
-			<rect className={name}>
-				<span>SP MSG 128</span>
-				<span>FR JDN 116</span>
-				<span>TY AAD 118</span>
-				<span>SV/EN EWM 212</span>
-				<span>SV/EN FJT 231</span>
-			</rect>
+			// <div className={classes}>
+			// 	<span>SP MSG 128</span>
+			// 	<span>FR JDN 116</span>
+			// 	<span>TY AAD 118</span>
+			// 	<span>SV/EN EWM 212</span>
+			// 	<span>SV/EN FJT 231</span>
+			// </div>
+			<div className={classes} style={styles}>
+				<span>Språkval</span>
+				<span></span>
+				<span></span>
+			</div>
 		);
 	}
 
 	return (
-		<rect className={name}>
-			{name} {teacher} {room}
-		</rect>
+		<div className={classes} style={styles}>
+			<span>{name}</span>
+			<span>{teacher}</span>
+			<span>{room}</span>
+		</div>
 	);
 }

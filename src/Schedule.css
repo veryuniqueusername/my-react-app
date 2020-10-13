@@ -1,31 +1,75 @@
 .Schedule {
 	display: flex;
-	flex-direction: column;
-	columns: auto 5;
+	flex-direction: row;
+	height: 80vmin;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.Day {
+	width: 20%;
+}
+
+.Subject {
+	display: flex;
+	border: 1px solid black;
+}
+
+.Subject span {
+	margin: auto;
 }
 
 .EV {
-	background-color: aliceblue;
+	background-color: white;
+	color: black;
+}
+
+.KV {
+	background-color: white;
+	color: black;
+}
+
+.Lunch {
+	background-color: rgb(170, 170, 170);
+	color: black;
+}
+
+.MA {
+	background-color: rgb(184, 221, 241);
+	color: black;
+}
+
+.SV {
+	background-color: rgb(255, 219, 165);
+	color: black;
+}
+
+.EN {
+	background-color: rgb(226, 190, 255);
 	color: black;
 }
 
 .SO {
-	background-color: black;
+	background-color: rgb(128, 97, 83);
 	color: white;
 }
 
-.LUNCH {
-	background-color: red;
+.NO {
+	background-color: rgb(81, 126, 63);
+	color: white;
 }
 
 .LANG {
-	background-color: pink;
+	background-color: rgb(255, 243, 192);
 	color: black;
-}
-.LANG span {
-	padding: 0.5em;
 }
 
 .IDH {
-	background-color: brown;
+	background-color: rgb(107, 40, 40);
+	color: white;
+}
+
+.TK {
+	background-color: rgb(43, 61, 119);
+	color: white;
 }

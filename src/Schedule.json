@@ -15,7 +15,7 @@
 			"end": [11, 40]
 		},
 		{
-			"subject": "LUNCH",
+			"subject": "Lunch",
 			"teacher": null,
 			"room": null,
 			"start": [11, 50],
@@ -36,8 +36,202 @@
 			"end": [14, 55]
 		}
 	],
-	[],
-	[],
-	[],
-	[]
+	[
+		{
+			"subject": "KV",
+			"teacher": "FJT",
+			"room": "217",
+			"start": [8, 0],
+			"end": [8, 45]
+		},
+		{
+			"subject": "NO",
+			"teacher": "AHN",
+			"room": "219",
+			"start": [9, 0],
+			"end": [9, 55]
+		},
+		{
+			"subject": "SV",
+			"teacher": "EMA",
+			"room": "221",
+			"start": [10, 5],
+			"end": [10, 55]
+		},
+		{
+			"subject": "TK",
+			"teacher": "JHM",
+			"room": "232",
+			"start": [11, 10],
+			"end": [12, 0]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [12, 5],
+			"end": [12, 45]
+		},
+		{
+			"subject": "MA",
+			"teacher": "TKI",
+			"room": "219",
+			"start": [12, 55],
+			"end": [13, 50]
+		},
+		{
+			"subject": "SO",
+			"teacher": "FJT",
+			"room": "231",
+			"start": [14, 0],
+			"end": [15, 0]
+		}
+	],
+	[
+		{
+			"subject": "SO",
+			"teacher": "FJT",
+			"room": "231",
+			"start": [8, 0],
+			"end": [8, 50]
+		},
+		{
+			"subject": "MA",
+			"teacher": "TKI",
+			"room": "232",
+			"start": [9, 5],
+			"end": [10, 0]
+		},
+		{
+			"subject": "LANG",
+			"teacher": null,
+			"room": null,
+			"start": [10, 5],
+			"end": [10, 55]
+		},
+		{
+			"subject": "EN",
+			"teacher": "KTN",
+			"room": "231",
+			"start": [11, 5],
+			"end": [12, 5]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [12, 10],
+			"end": [12, 50]
+		},
+		{
+			"subject": "SV",
+			"teacher": "EMA",
+			"room": "221",
+			"start": [13, 0],
+			"end": [14, 5]
+		},
+		{
+			"subject": "MU-HKK",
+			"teacher": null,
+			"room": null,
+			"start": [14, 30],
+			"end": [16, 0]
+		}
+	],
+	[
+		{
+			"subject": "NO-Lab",
+			"teacher": "AHN",
+			"room": "211",
+			"start": [8, 0],
+			"end": [8, 50]
+		},
+		{
+			"subject": "NO",
+			"teacher": "AHN",
+			"room": "219",
+			"start": [9, 0],
+			"end": [9, 45]
+		},
+		{
+			"subject": "IDH",
+			"teacher": "LLG",
+			"room": "SPH1",
+			"start": [10, 5],
+			"end": [10, 55]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [11, 30],
+			"end": [12, 10]
+		},
+		{
+			"subject": "MA",
+			"teacher": "TKI",
+			"room": "219",
+			"start": [12, 15],
+			"end": [13, 25]
+		},
+
+		{
+			"subject": "SV",
+			"teacher": "EMA",
+			"room": "221",
+			"start": [13, 40],
+			"end": [14, 25]
+		},
+		{
+			"subject": "SLTMTXT",
+			"teacher": null,
+			"room": null,
+			"start": [14, 40],
+			"end": [16, 0]
+		}
+	],
+	[
+		{
+			"subject": "IDH",
+			"teacher": "LLG",
+			"room": "SPH1",
+			"start": [8, 0],
+			"end": [8, 40]
+		},
+		{
+			"subject": "LANG",
+			"teacher": null,
+			"room": null,
+			"start": [9, 15],
+			"end": [10, 5]
+		},
+		{
+			"subject": "EN",
+			"teacher": "KTN",
+			"room": "221",
+			"start": [10, 15],
+			"end": [11, 10]
+		},
+		{
+			"subject": "MA",
+			"teacher": "TKI",
+			"room": "219",
+			"start": [11, 20],
+			"end": [12, 5]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [12, 5],
+			"end": [12, 45]
+		},
+		{
+			"subject": "BL-NO",
+			"teacher": null,
+			"room": null,
+			"start": [12, 45],
+			"end": [14, 35]
+		}
+	]
 ]
