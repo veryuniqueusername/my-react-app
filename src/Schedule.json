@@ -2,26 +2,36 @@
 	[
 		{
 			"subject": "EV",
+			"teacher": "EMA",
+			"room": null,
 			"start": [9, 30],
 			"end": [10, 0]
 		},
 		{
 			"subject": "SO",
+			"teacher": "FJT",
+			"room": "231",
 			"start": [10, 20],
 			"end": [11, 40]
 		},
 		{
 			"subject": "LUNCH",
+			"teacher": null,
+			"room": null,
 			"start": [11, 50],
 			"end": [12, 30]
 		},
 		{
 			"subject": "LANG",
+			"teacher": null,
+			"room": null,
 			"start": [12, 45],
 			"end": [13, 40]
 		},
 		{
-			"subject": "EV",
+			"subject": "IDH",
+			"teacher": "LLG",
+			"room": "SPH1",
 			"start": [13, 55],
 			"end": [14, 55]
 		}

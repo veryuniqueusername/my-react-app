@@ -1,9 +1,11 @@
 .EV {
 	background-color: aliceblue;
+	color: black;
 }
 
 .SO {
 	background-color: black;
+	color: white;
 }
 
 .LUNCH {
@@ -12,6 +14,10 @@
 
 .LANG {
 	background-color: pink;
+	color: black;
+}
+.LANG span {
+	padding: 0.5em;
 }
 
 .IDH {
