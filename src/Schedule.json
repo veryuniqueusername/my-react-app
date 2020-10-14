@@ -131,16 +131,21 @@
 			"end": [14, 5]
 		},
 		{
-			"subject": "MU-HKK",
-			"teacher": null,
-			"room": null,
+			"subject": "MU",
+			"teacher": "GAA",
+			"room": "AULAN",
 			"start": [14, 30],
-			"end": [16, 0]
+      "end": [16, 0],
+      "subject2": "HKK",
+			"teacher2": "KTN",
+			"room2": "2018",
+			"start2": [14, 30],
+      "end2": [16, 0]
 		}
 	],
 	[
 		{
-			"subject": "NO-Lab",
+			"subject": "NO Lab",
 			"teacher": "AHN",
 			"room": "211",
 			"start": [8, 0],
@@ -174,7 +179,6 @@
 			"start": [12, 15],
 			"end": [13, 25]
 		},
-
 		{
 			"subject": "SV",
 			"teacher": "EMA",
@@ -183,11 +187,16 @@
 			"end": [14, 25]
 		},
 		{
-			"subject": "SLTMTXT",
-			"teacher": null,
-			"room": null,
+			"subject": "SLTXT",
+			"teacher": "ABT",
+			"room": "2003",
 			"start": [14, 40],
-			"end": [16, 0]
+			"end": [16, 0],
+      "subject2": "SLTM",
+			"teacher2": "JEP",
+			"room2": "2008",
+			"start2": [14, 40],
+      "end2": [16, 0]
 		}
 	],
 	[
@@ -227,11 +236,16 @@
 			"end": [12, 45]
 		},
 		{
-			"subject": "BL-NO",
-			"teacher": null,
-			"room": null,
+			"subject": "BL",
+			"teacher": "PJL",
+			"room": "2011",
 			"start": [12, 45],
-			"end": [14, 35]
+			"end": [14, 35],
+      "subject2": "NO Lab",
+			"teacher2": "AHN",
+			"room2": "211",
+			"start2": [12, 45],
+      "end2": [13, 35]
 		}
 	]
 ]

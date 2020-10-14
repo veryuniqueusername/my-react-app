@@ -13,8 +13,7 @@
 	display: flex;
 	box-sizing: border-box;
 	border: 1px inset black;
-	position: absolute;
-	width: calc(20% - 8px);
+  position: absolute;
 	padding: 0;
 }
 
@@ -62,6 +61,11 @@
 	color: white;
 }
 
+.NO.Lab {
+  background-color: rgb(45, 66, 37);
+	color: white;
+}
+
 .LANG {
 	background-color: rgb(255, 243, 192);
 	color: black;
@@ -75,4 +79,29 @@
 .TK {
 	background-color: rgb(43, 61, 119);
 	color: white;
+}
+
+.SLTXT {
+  background-color: rgb(204, 142, 171);
+	color: black;
+}
+
+.SLTM {
+  background-color: rgb(119, 53, 75);
+	color: white;
+}
+
+.BL {
+  background-color: rgb(19, 82, 71);
+	color: white;
+}
+
+.MU {
+  background-color: rgb(120, 134, 80);
+	color: white;
+}
+
+.HKK {
+  background-color: rgb(135, 218, 207);
+	color: black;
 }
