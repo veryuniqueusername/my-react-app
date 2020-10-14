@@ -60,13 +60,14 @@ function scheduleCalc(
 	start: Array<number>,
 	end: Array<number>
 ) {
-	var starting = (start[0] * 60 + start[1]) * (5 / 27);
-	var ending = (end[0] * 60 + end[1]) * (5 / 27);
+	var starting = ((start[0] - 6) * 60 + start[1]) * (5 / 27);
+	var ending = ((end[0] - 6) * 60 + end[1]) * (5 / 27);
 	var length = ending - starting;
 	var classes = name + ' Subject';
 	console.log(starting);
 	var styles = {
 		height: length + '%',
+		top: starting + "%"
 	};
 
 	if (name === 'LANG') {
