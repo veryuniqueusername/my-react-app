@@ -6,11 +6,11 @@ export default function Schedule() {
 		<div>
 			<h1>Schema</h1>
 			<div className="Schedule">
-				<ScheduleViewer day="monday" className="Day" />
-				<ScheduleViewer day="tuesday" className="Day" />
-				<ScheduleViewer day="wednesday" className="Day" />
-				<ScheduleViewer day="thursday" className="Day" />
-				<ScheduleViewer day="friday" className="Day" />
+				<ScheduleViewer day="monday" />
+				<ScheduleViewer day="tuesday" />
+				<ScheduleViewer day="wednesday" />
+				<ScheduleViewer day="thursday" />
+				<ScheduleViewer day="friday" />
 			</div>
 		</div>
 	);
@@ -60,14 +60,14 @@ function scheduleCalc(
 	start: Array<number>,
 	end: Array<number>
 ) {
-	var starting = ((start[0] - 6) * 60 + start[1]) * (5 / 27);
-	var ending = ((end[0] - 6) * 60 + end[1]) * (5 / 27);
-	var length = ending - starting;
+	var starting = ((start[0] - 6) * 60 + start[1]) * (5 / 27) * 0.85;
+	var ending = ((end[0] - 6) * 60 + end[1]) * (5 / 27) * 0.85;
+	var length = (ending - starting);
 	var classes = name + ' Subject';
 	console.log(starting);
 	var styles = {
 		height: length + '%',
-		top: starting + "%"
+		top: starting + '%',
 	};
 
 	if (name === 'LANG') {
