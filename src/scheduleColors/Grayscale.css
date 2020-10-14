@@ -1,0 +1,104 @@
+:root {
+	--ev: white;
+	--kv: white;
+	--lunch: #dddddd;
+	--ma: #aaaaaa;
+	--sv: #aaaaaa;
+	--en: #aaaaaa;
+	--so: #666666;
+	--no: #666666;
+	--lab: #555555;
+	--sltxt: #222222;
+	--sltm: #222222;
+	--tk: #cccccc;
+	--hkk: #cccccc;
+	--mu: #333333;
+	--bl: #787878;
+	--lang: white;
+	--idh: #999999;
+}
+
+.EV {
+	background-color: var(--ev);
+	color: black;
+}
+
+.KV {
+	background-color: var(--kv);
+	color: black;
+}
+
+.Lunch {
+	background-color: var(--lunch);
+	color: black;
+}
+
+.MA {
+	background-color: var(--ma);
+	color: black;
+}
+
+.SV {
+	background-color: var(--sv);
+	color: black;
+}
+
+.EN {
+	background-color: var(--en);
+	color: black;
+}
+
+.SO {
+	background-color: var(--so);
+	color: white;
+}
+
+.NO {
+	background-color: var(--no);
+	color: white;
+}
+
+.NO.Lab {
+	background-color: var(--lab);
+	color: white;
+}
+
+.LANG {
+	background-color: var(--lang);
+	color: black;
+}
+
+.IDH {
+	background-color: var(--idh);
+	color: black;
+}
+
+.TK {
+	background-color: var(--tk);
+	color: black;
+}
+
+.SLTXT {
+	background-color: var(--sltxt);
+	color: white;
+}
+
+.SLTM {
+	background-color: var(--sltm);
+	color: white;
+}
+
+.BL {
+	background-color: var(--bl);
+	color: black;
+}
+
+.MU {
+	background-color: var(--mu);
+	color: white;
+}
+
+.HKK {
+	background-color: var(--hkk);
+	color: black;
+}

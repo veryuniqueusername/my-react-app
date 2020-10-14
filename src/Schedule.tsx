@@ -1,10 +1,18 @@
 import React from 'react';
 import './Schedule.css';
+if (!localStorage.schedule) {
+	localStorage.schedule = 'Default';
+}
+import(`./scheduleColors/${localStorage.schedule}.css`);
 
 export default function Schedule() {
 	return (
 		<div>
-			<h1>Schema</h1>
+			<h1>Schema </h1>
+			<div className="ColorList">
+				<ScheduleChangerButton theme="Default" />
+				<ScheduleChangerButton theme="Grayscale" />
+			</div>
 			<div className="Schedule">
 				<ScheduleViewer day="monday" />
 				<ScheduleViewer day="tuesday" />
@@ -61,7 +69,7 @@ function scheduleCalc(obj) {
 	var styles = {
 		height: length + '%',
 		top: starting + '%',
-		width: 'calc((20% - 8px))',
+		width: 'calc((20% - 32px))',
 	};
 
 	// IF LANG
@@ -97,12 +105,12 @@ function scheduleCalc(obj) {
 		var ending2 = ((end2[0] - 6) * 60 + end2[1]) * (5 / 27) * 0.85;
 		var length2 = ending2 - starting2;
 		var classes2 = name2 + ' Subject';
-		styles.width = 'calc((20% - 8px) / 2)';
+		styles.width = 'calc((20% - 32px) / 2)';
 		var styles2 = {
 			height: length2 + '%',
 			top: starting2 + '%',
-			width: 'calc((20% - 8px) / 2)',
-			transform: 'translateX(100%)'
+			width: 'calc((20% - 32px) / 2)',
+			transform: 'translateX(100%)',
 		};
 		return (
 			<div>
@@ -119,4 +127,18 @@ function scheduleCalc(obj) {
 			</div>
 		);
 	}
+}
+
+function ScheduleChangerButton(props) {
+	return (
+		<div
+			className="ScheduleChanger"
+			onClick={() => {
+				localStorage.setItem('schedule', props.theme);
+				window.location.reload();
+			}}
+		>
+			{props.theme}
+		</div>
+	);
 }

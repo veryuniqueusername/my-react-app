@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: row;
   margin: 0;
-	padding: 20px;
+	padding: 80px;
 }
 
 .Day {
@@ -21,87 +21,9 @@
 	margin: auto;
 }
 
-.EV {
-	background-color: white;
-	color: black;
-}
-
-.KV {
-	background-color: white;
-	color: black;
-}
-
-.Lunch {
-	background-color: rgb(170, 170, 170);
-	color: black;
-}
-
-.MA {
-	background-color: rgb(184, 221, 241);
-	color: black;
-}
-
-.SV {
-	background-color: rgb(255, 219, 165);
-	color: black;
-}
-
-.EN {
-	background-color: rgb(226, 190, 255);
-	color: black;
-}
-
-.SO {
-	background-color: rgb(128, 97, 83);
+.ScheduleChanger {
+	display: inline;
+	background-color: green;
+	border: 1px solid black;
 	color: white;
-}
-
-.NO {
-	background-color: rgb(81, 126, 63);
-	color: white;
-}
-
-.NO.Lab {
-  background-color: rgb(45, 66, 37);
-	color: white;
-}
-
-.LANG {
-	background-color: rgb(255, 243, 192);
-	color: black;
-}
-
-.IDH {
-	background-color: rgb(107, 40, 40);
-	color: white;
-}
-
-.TK {
-	background-color: rgb(43, 61, 119);
-	color: white;
-}
-
-.SLTXT {
-  background-color: rgb(204, 142, 171);
-	color: black;
-}
-
-.SLTM {
-  background-color: rgb(119, 53, 75);
-	color: white;
-}
-
-.BL {
-  background-color: rgb(19, 82, 71);
-	color: white;
-}
-
-.MU {
-  background-color: rgb(120, 134, 80);
-	color: white;
-}
-
-.HKK {
-  background-color: rgb(135, 218, 207);
-	color: black;
 }
