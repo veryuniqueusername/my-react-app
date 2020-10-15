@@ -60,7 +60,7 @@
 }
 
 .ScheduleChangerActive {
-	filter: var(--hoverFilter);
+	background-color: #0fc83f22;
 }
 
 /* Tooltip text */

@@ -1,0 +1,104 @@
+:root {
+	--ev: #617e9e;
+	--kv: #035365;
+	--lunch: #eaffb4;
+	--ma: #92e731;
+	--sv: #e02e2e;
+	--en: #d02bf1;
+	--so: #3258f0;
+	--no: #ffdb0f;
+	--lab: #e0f147;
+	--sltxt: #00c3ce;
+	--sltm: #6ae9ff;
+	--tk: #ffb6db;
+	--hkk: #09a836;
+	--mu: #83ff6b;
+	--bl: #fcd443;
+	--lang: #29d1bb;
+	--idh: #ff7161;
+}
+
+.EV {
+	background-color: var(--ev);
+	color: white;
+}
+
+.KV {
+	background-color: var(--kv);
+	color: white;
+}
+
+.Lunch {
+	background-color: var(--lunch);
+	color: black;
+}
+
+.MA {
+	background-color: var(--ma);
+	color: black;
+}
+
+.SV {
+	background-color: var(--sv);
+	color: white;
+}
+
+.EN {
+	background-color: var(--en);
+	color: white;
+}
+
+.SO {
+	background-color: var(--so);
+	color: white;
+}
+
+.NO {
+	background-color: var(--no);
+	color: black;
+}
+
+.NO.Lab {
+	background-color: var(--lab);
+	color: black;
+}
+
+.SLTXT {
+	background-color: var(--sltxt);
+	color: black;
+}
+
+.SLTM {
+	background-color: var(--sltm);
+	color: black;
+}
+
+.TK {
+	background-color: var(--tk);
+	color: black;
+}
+
+.HKK {
+	background-color: var(--hkk);
+	color: black;
+}
+
+.MU {
+	background-color: var(--mu);
+	color: black;
+}
+
+.BL {
+	background-color: var(--bl);
+	color: black;
+}
+
+.LANG {
+	background-color: var(--lang);
+	color: black;
+}
+
+.IDH {
+	background-color: var(--idh);
+	color: black;
+}

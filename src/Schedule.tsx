@@ -12,6 +12,7 @@ export default function Schedule() {
 			<div className="ColorList">
 				<ScheduleChangerButton theme="Default" />
 				<ScheduleChangerButton theme="Grayscale" />
+				<ScheduleChangerButton theme="Colourful" />
 			</div>
 			<div className="Schedule">
 				<ScheduleViewer day="monday" />
@@ -160,9 +161,9 @@ function scheduleCalc(obj) {
 }
 
 function ScheduleChangerButton(props) {
-	var classes = 'ScheduleChanger'
+	var classes = 'ScheduleChanger';
 	if (localStorage.schedule === props.theme) {
-		classes += ' ScheduleChangerActive'
+		classes += ' ScheduleChangerActive';
 	}
 	return (
 		<button
