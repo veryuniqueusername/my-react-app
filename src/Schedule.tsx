@@ -76,7 +76,7 @@ function scheduleCalc(obj) {
 	var starting = ((start[0] - 4.5) * 60 + start[1]) * (5 / 27) * 0.75;
 	var ending = ((end[0] - 4.5) * 60 + end[1]) * (5 / 27) * 0.75;
 	var length = ending - starting;
-	var classes = name + ' Subject';
+	var classes = name + ' Subject tooltip';
 	var startTime = arrToTime(start);
 	var endTime = arrToTime(end);
 	var styles = {
@@ -89,19 +89,21 @@ function scheduleCalc(obj) {
 	if (name === 'LANG') {
 		return (
 			<div className= { classes } style = { styles } >
-				<span>{startTime}</span>
 				<span>Språkval</span>
-				<span>{endTime}</span>
 			</div>
 		);
 	}
 	// IF ONE SUBJECT
 	if (!obj.subject2) {
 		return (
-			<div className={classes} style={styles}>
-			<span style={ { alignSelf: 'flex-end'}}>{startTime}</span>
-				<span>{name}</span>
-				<span style={{transform: 'translateY(50%)'}}>{endTime}</span>
+			<div className= { classes } style = { styles } >
+				<span>{ name } </span>
+			< div className = 'tooltiptext' >
+				<span> {startTime} </span>
+				<span> { teacher } </span>
+				<span> {room} </span>
+				<span> {endTime} </span>
+				</div>
 			</div>
 		);
 	}
@@ -130,14 +132,10 @@ function scheduleCalc(obj) {
 		return (
 			<div>
 				<div className={classes} style={styles}>
-					<span style={{transform: 'translateY(-0.5em)'}}>{startTime}</span>
 					<span>{name}</span>
-					<span style={{transform: 'translateY(0.5em)'}}>{endTime2}</span>
 				</div>
 				<div className={classes2} style={styles2}>
-					<span style={{transform: 'translateY(-0.5em)'}}>{startTime2}</span>
 					<span>{name2}</span>
-					<span style={{transform: 'translateY(0.5em)'}}>{endTime2}</span>
 				</div>
 			</div>
 		);
