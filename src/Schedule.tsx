@@ -8,7 +8,7 @@ import(`./scheduleColors/${localStorage.schedule}.css`);
 export default function Schedule() {
 	return (
 		<div>
-			<h1>Schema </h1>
+			<h1>Schema</h1>
 			<div className="ColorList">
 				<ScheduleChangerButton theme="Default" />
 				<ScheduleChangerButton theme="Grayscale" />
@@ -61,11 +61,24 @@ function scheduleCalc(obj) {
 	var teacher = obj.teacher;
 	var room = obj.room;
 
+	function arrToTime(arr) {
+		var time = arr[0];
+		if (arr[1] < 10) {
+			time += ':0' + arr[1];
+		} else {
+			time += ':' + arr[1];
+		}
+		console.log(time);
+		return (time);
+	}
+
 	// BUNCH OF STYLING AND POSITIONING
 	var starting = ((start[0] - 4.5) * 60 + start[1]) * (5 / 27) * 0.75;
 	var ending = ((end[0] - 4.5) * 60 + end[1]) * (5 / 27) * 0.75;
 	var length = ending - starting;
 	var classes = name + ' Subject';
+	var startTime = arrToTime(start);
+	var endTime = arrToTime(end);
 	var styles = {
 		height: length + '%',
 		top: starting + '%',
@@ -75,10 +88,10 @@ function scheduleCalc(obj) {
 	// IF LANG
 	if (name === 'LANG') {
 		return (
-			<div className={classes} style={styles}>
+			<div className= { classes } style = { styles } >
+				<span>{startTime}</span>
 				<span>Språkval</span>
-				<span></span>
-				<span></span>
+				<span>{endTime}</span>
 			</div>
 		);
 	}
@@ -86,9 +99,9 @@ function scheduleCalc(obj) {
 	if (!obj.subject2) {
 		return (
 			<div className={classes} style={styles}>
+			<span style={ { alignSelf: 'flex-end'}}>{startTime}</span>
 				<span>{name}</span>
-				<span>{teacher}</span>
-				<span>{room}</span>
+				<span style={{transform: 'translateY(50%)'}}>{endTime}</span>
 			</div>
 		);
 	}
@@ -105,6 +118,8 @@ function scheduleCalc(obj) {
 		var ending2 = ((end2[0] - 4.5) * 60 + end2[1]) * (5 / 27) * 0.75;
 		var length2 = ending2 - starting2;
 		var classes2 = name2 + ' Subject';
+		var startTime2 = arrToTime(start2);
+		var endTime2 = arrToTime(end2);
 		styles.width = 'calc((20% - 32px) / 2)';
 		var styles2 = {
 			height: length2 + '%',
@@ -115,14 +130,14 @@ function scheduleCalc(obj) {
 		return (
 			<div>
 				<div className={classes} style={styles}>
+					<span style={{transform: 'translateY(-0.5em)'}}>{startTime}</span>
 					<span>{name}</span>
-					<span>{teacher}</span>
-					<span>{room}</span>
+					<span style={{transform: 'translateY(0.5em)'}}>{endTime2}</span>
 				</div>
 				<div className={classes2} style={styles2}>
+					<span style={{transform: 'translateY(-0.5em)'}}>{startTime2}</span>
 					<span>{name2}</span>
-					<span>{teacher2}</span>
-					<span>{room2}</span>
+					<span style={{transform: 'translateY(0.5em)'}}>{endTime2}</span>
 				</div>
 			</div>
 		);
