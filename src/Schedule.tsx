@@ -62,8 +62,8 @@ function scheduleCalc(obj) {
 	var room = obj.room;
 
 	// BUNCH OF STYLING AND POSITIONING
-	var starting = ((start[0] - 6) * 60 + start[1]) * (5 / 27) * 0.85;
-	var ending = ((end[0] - 6) * 60 + end[1]) * (5 / 27) * 0.85;
+	var starting = ((start[0] - 4.5) * 60 + start[1]) * (5 / 27) * 0.75;
+	var ending = ((end[0] - 4.5) * 60 + end[1]) * (5 / 27) * 0.75;
 	var length = ending - starting;
 	var classes = name + ' Subject';
 	var styles = {
@@ -101,8 +101,8 @@ function scheduleCalc(obj) {
 		var teacher2 = obj.teacher2;
 		var room2 = obj.room2;
 		// BUNCH OF STYLING AND POSITIONING
-		var starting2 = ((start2[0] - 6) * 60 + start2[1]) * (5 / 27) * 0.85;
-		var ending2 = ((end2[0] - 6) * 60 + end2[1]) * (5 / 27) * 0.85;
+		var starting2 = ((start2[0] - 4.5) * 60 + start2[1]) * (5 / 27) * 0.75;
+		var ending2 = ((end2[0] - 4.5) * 60 + end2[1]) * (5 / 27) * 0.75;
 		var length2 = ending2 - starting2;
 		var classes2 = name2 + ' Subject';
 		styles.width = 'calc((20% - 32px) / 2)';
