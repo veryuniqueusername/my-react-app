@@ -10,11 +10,11 @@
 	--lab: #555555;
 	--sltxt: #222222;
 	--sltm: #222222;
-	--tk: #cccccc;
+	--tk: #333333;
 	--hkk: #cccccc;
 	--mu: #333333;
 	--bl: #787878;
-	--lang: white;
+	--lang: #444444;
 	--idh: #999999;
 }
 
@@ -65,7 +65,7 @@
 
 .LANG {
 	background-color: var(--lang);
-	color: black;
+	color: white;
 }
 
 .IDH {
@@ -75,7 +75,7 @@
 
 .TK {
 	background-color: var(--tk);
-	color: black;
+	color: white;
 }
 
 .SLTXT {
