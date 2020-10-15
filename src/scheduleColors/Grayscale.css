@@ -2,16 +2,16 @@
 	--ev: white;
 	--kv: white;
 	--lunch: #dddddd;
-	--ma: #aaaaaa;
+	--ma: #cccccc;
 	--sv: #aaaaaa;
 	--en: #aaaaaa;
 	--so: #666666;
 	--no: #666666;
 	--lab: #555555;
-	--sltxt: #222222;
-	--sltm: #222222;
+	--sltxt: #2c2c2c;
+	--sltm: #191919;
 	--tk: #333333;
-	--hkk: #cccccc;
+	--hkk: #777777;
 	--mu: #333333;
 	--bl: #787878;
 	--lang: #444444;
@@ -70,7 +70,7 @@
 
 .IDH {
 	background-color: var(--idh);
-	color: black;
+	color: white;
 }
 
 .TK {
@@ -100,5 +100,5 @@
 
 .HKK {
 	background-color: var(--hkk);
-	color: black;
+	color: white;
 }

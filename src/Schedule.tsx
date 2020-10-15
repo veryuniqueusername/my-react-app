@@ -68,20 +68,19 @@ function scheduleCalc(obj) {
 		} else {
 			time += ':' + arr[1];
 		}
-		console.log(time);
 		return time;
 	}
 
 	// BUNCH OF STYLING AND POSITIONING
-	var starting = ((start[0] - 4.5) * 60 + start[1]) * (5 / 27) * 0.75;
-	var ending = ((end[0] - 4.5) * 60 + end[1]) * (5 / 27) * 0.75;
+	var starting = ((start[0] - 5) * 60 + start[1]) * (5 / 27) * 0.75;
+	var ending = ((end[0] - 5) * 60 + end[1]) * (5 / 27) * 0.75;
 	var length = ending - starting;
 	var classes = name + ' Subject tooltip';
 	var startTime = arrToTime(start);
 	var endTime = arrToTime(end);
 	var styles = {
-		height: length + '%',
-		top: starting + '%',
+		height: length + 'vmin',
+		top: starting + 'vmin',
 		width: 'calc((20% - 32px))',
 	};
 
@@ -122,16 +121,16 @@ function scheduleCalc(obj) {
 		var teacher2 = obj.teacher2;
 		var room2 = obj.room2;
 		// BUNCH OF STYLING AND POSITIONING
-		var starting2 = ((start2[0] - 4.5) * 60 + start2[1]) * (5 / 27) * 0.75;
-		var ending2 = ((end2[0] - 4.5) * 60 + end2[1]) * (5 / 27) * 0.75;
+		var starting2 = ((start2[0] - 5) * 60 + start2[1]) * (5 / 27) * 0.75;
+		var ending2 = ((end2[0] - 5) * 60 + end2[1]) * (5 / 27) * 0.75;
 		var length2 = ending2 - starting2;
 		var classes2 = name2 + ' Subject tooltip';
 		var startTime2 = arrToTime(start2);
 		var endTime2 = arrToTime(end2);
 		styles.width = 'calc((20% - 32px) / 2)';
 		var styles2 = {
-			height: length2 + '%',
-			top: starting2 + '%',
+			height: length2 + 'vmin',
+			top: starting2 + 'vmin',
 			width: 'calc((20% - 32px) / 2)',
 			transform: 'translateX(100%)',
 		};
@@ -161,15 +160,20 @@ function scheduleCalc(obj) {
 }
 
 function ScheduleChangerButton(props) {
+	var classes = 'ScheduleChanger'
+	if (localStorage.schedule === props.theme) {
+		classes += ' ScheduleChangerActive'
+	}
 	return (
-		<div
-			className="ScheduleChanger"
+		<button
+			type="button"
+			className={classes}
 			onClick={() => {
 				localStorage.setItem('schedule', props.theme);
 				window.location.reload();
 			}}
 		>
 			{props.theme}
-		</div>
+		</button>
 	);
 }
