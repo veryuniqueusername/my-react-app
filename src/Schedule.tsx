@@ -69,7 +69,7 @@ function scheduleCalc(obj) {
 			time += ':' + arr[1];
 		}
 		console.log(time);
-		return (time);
+		return time;
 	}
 
 	// BUNCH OF STYLING AND POSITIONING
@@ -88,21 +88,27 @@ function scheduleCalc(obj) {
 	// IF LANG
 	if (name === 'LANG') {
 		return (
-			<div className= { classes } style = { styles } >
-				<span>Språkval</span>
+			<div className={classes} style={styles}>
+				<span>Språkval </span>
+				<div className="tooltiptext">
+					<span> {startTime} </span>
+					<span> {teacher} </span>
+					<span> {room} </span>
+					<span> {endTime} </span>
+				</div>
 			</div>
 		);
 	}
 	// IF ONE SUBJECT
 	if (!obj.subject2) {
 		return (
-			<div className= { classes } style = { styles } >
-				<span>{ name } </span>
-			< div className = 'tooltiptext' >
-				<span> {startTime} </span>
-				<span> { teacher } </span>
-				<span> {room} </span>
-				<span> {endTime} </span>
+			<div className={classes} style={styles}>
+				<span>{name} </span>
+				<div className="tooltiptext">
+					<span> {startTime} </span>
+					<span> {teacher} </span>
+					<span> {room} </span>
+					<span> {endTime} </span>
 				</div>
 			</div>
 		);
@@ -119,7 +125,7 @@ function scheduleCalc(obj) {
 		var starting2 = ((start2[0] - 4.5) * 60 + start2[1]) * (5 / 27) * 0.75;
 		var ending2 = ((end2[0] - 4.5) * 60 + end2[1]) * (5 / 27) * 0.75;
 		var length2 = ending2 - starting2;
-		var classes2 = name2 + ' Subject';
+		var classes2 = name2 + ' Subject tooltip';
 		var startTime2 = arrToTime(start2);
 		var endTime2 = arrToTime(end2);
 		styles.width = 'calc((20% - 32px) / 2)';
@@ -132,10 +138,22 @@ function scheduleCalc(obj) {
 		return (
 			<div>
 				<div className={classes} style={styles}>
-					<span>{name}</span>
+					<span>{name} </span>
+					<div className="tooltiptext">
+						<span> {startTime} </span>
+						<span> {teacher} </span>
+						<span> {room} </span>
+						<span> {endTime} </span>
+					</div>
 				</div>
 				<div className={classes2} style={styles2}>
-					<span>{name2}</span>
+					<span>{name2} </span>
+					<div className="tooltiptext">
+						<span> {startTime2} </span>
+						<span> {teacher2} </span>
+						<span> {room2} </span>
+						<span> {endTime2} </span>
+					</div>
 				</div>
 			</div>
 		);
