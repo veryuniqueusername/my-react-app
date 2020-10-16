@@ -24,7 +24,13 @@
 .ColorList {
 	position: absolute;
 	top: calc(var(--navSize) + 2em);
-	right: 75px;
+	right: 80px;
+}
+
+.ClassList {
+	position: absolute;
+	top: calc(var(--navSize) + 2em);
+	left: 80px;
 }
 
 .ScheduleChanger {
@@ -67,19 +73,20 @@
 .tooltiptext {
 	display: flex;
 	visibility: hidden;
-	width: 15vmax;
+	width: 8vmax;
 	background-color: rgb(0, 0, 0, 0.5);
 	color: #fff;
 	text-align: center;
-	padding: 5px 0;
+	padding: 2px 0;
 	border-radius: 6px;
+	font-size: small;
 
 	/* Position the tooltip text */
 	position: absolute;
 	z-index: 10;
 	bottom: 75%;
 	left: 50%;
-	margin-left: -7.5vmax;
+	margin-left: -4vmax;
 
 	/* Fade in tooltip */
 	opacity: 0;

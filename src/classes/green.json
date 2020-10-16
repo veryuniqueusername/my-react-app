@@ -1,0 +1,256 @@
+[
+	[
+		{
+			"subject": "EV",
+			"teacher": "EMA",
+			"room": null,
+			"start": [9, 30],
+			"end": [10, 0]
+		},
+		{
+			"subject": "MA",
+			"teacher": "FJT",
+			"room": "231",
+			"start": [10, 15],
+			"end": [11, 25]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [11, 40],
+			"end": [12, 20]
+		},
+		{
+			"subject": "LANG",
+			"teacher": null,
+			"room": null,
+			"start": [12, 45],
+			"end": [13, 40]
+		},
+		{
+			"subject": "TK",
+			"teacher": "JHM",
+			"room": "232",
+			"start": [13, 45],
+			"end": [14, 35]
+		},
+		{
+			"subject": "SV",
+			"teacher": "EMA",
+			"room": "221",
+			"start": [14, 45],
+			"end": [15, 40]
+		}
+	],
+	[
+		{
+			"subject": "KV",
+			"teacher": "FJT",
+			"room": "217",
+			"start": [8, 0],
+			"end": [8, 45]
+		},
+		{
+			"subject": "MA",
+			"teacher": "JHM",
+			"room": "232",
+			"start": [8, 50],
+			"end": [9, 45]
+		},
+		{
+			"subject": "NO",
+			"teacher": "AHN",
+			"room": "219",
+			"start": [10, 0],
+			"end": [10, 50]
+		},
+		{
+			"subject": "SO",
+			"teacher": "FJT",
+			"room": "217",
+			"start": [10, 55],
+			"end": [12, 5]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [12, 5],
+			"end": [12, 45]
+		},
+		{
+			"subject": "EN",
+			"teacher": "KTN",
+			"room": "221",
+			"start": [12, 55],
+			"end": [13, 50]
+		},
+		{
+			"subject": "IDH",
+			"teacher": "LLG",
+			"room": "SPH1",
+			"start": [14, 20],
+			"end": [15, 15]
+		}
+	],
+	[
+		{
+			"subject": "BL",
+			"teacher": "PJL",
+			"room": "2011",
+			"start": [8, 0],
+			"end": [9, 50],
+			"subject2": "NO Lab",
+			"teacher2": "AHN",
+			"room2": "211",
+			"start2": [9, 0],
+			"end2": [9, 50]
+		},
+		{
+			"subject": "LANG",
+			"teacher": null,
+			"room": null,
+			"start": [10, 5],
+			"end": [10, 55]
+		},
+		{
+			"subject": "MA",
+			"teacher": "JHM",
+			"room": "232",
+			"start": [11, 15],
+			"end": [12, 5]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [12, 5],
+			"end": [12, 45]
+		},
+		{
+			"subject": "MU",
+			"teacher": "GAA",
+			"room": "AULAN",
+			"start": [12, 50],
+			"end": [14, 20],
+			"subject2": "HKK",
+			"teacher2": "KTN",
+			"room2": "2018",
+			"start2": [12, 50],
+			"end2": [14, 20]
+		},
+		{
+			"subject": "SLTM",
+			"teacher": "JEP",
+			"room": "2008",
+			"start": [14, 40],
+			"end": [16, 0],
+			"subject2": "SLTXT",
+			"teacher2": "ABT",
+			"room2": "2003",
+			"start2": [14, 40],
+			"end2": [16, 0]
+		}
+	],
+	[
+		{
+			"subject": "IDH",
+			"teacher": "LLG",
+			"room": "SPH1",
+			"start": [8, 0],
+			"end": [8, 55]
+		},
+		{
+			"subject": "MA",
+			"teacher": "JHM",
+			"room": "232",
+			"start": [9, 20],
+			"end": [10, 10]
+		},
+		{
+			"subject": "SO",
+			"teacher": "FJT",
+			"room": "231",
+			"start": [10, 30],
+			"end": [11, 45]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [11, 50],
+			"end": [12, 30]
+		},
+		{
+			"subject": "NO",
+			"teacher": "AHN",
+			"room": "231",
+			"start": [13, 5],
+			"end": [13, 55]
+		},
+		{
+			"subject": "EN",
+			"teacher": "KTN",
+			"room": "217",
+			"start": [14, 5],
+			"end": [15, 5]
+		}
+	],
+	[
+		{
+			"subject": "SV",
+			"teacher": "EMA",
+			"room": "221",
+			"start": [8, 0],
+			"end": [9, 0]
+		},
+		{
+			"subject": "LANG",
+			"teacher": null,
+			"room": null,
+			"start": [9, 15],
+			"end": [10, 5]
+		},
+		{
+			"subject": "IDH",
+			"teacher": "LLG",
+			"room": "SPH1",
+			"start": [10, 25],
+			"end": [11, 15]
+		},
+		{
+			"subject": "Lunch",
+			"teacher": null,
+			"room": null,
+			"start": [11, 50],
+			"end": [12, 35]
+		},
+		{
+			"subject": "SV",
+			"teacher": "EMA",
+			"room": "221",
+			"start": [12, 30],
+			"end": [13, 30]
+		},
+		{
+			"subject": "SO",
+			"teacher": "FJT",
+			"room": "231",
+			"start": [13, 40],
+			"end": [14, 35]
+		},
+		{
+			"subject": "NO Lab",
+			"teacher": "AHN",
+			"room": "211",
+			"start": [14, 45],
+			"end": [15, 35],
+			"subject2": "placeholder",
+			"teacher2": null,
+			"room2": null,
+			"start2": [null, null],
+			"end2": [null, null]
+		}
+	]
+]

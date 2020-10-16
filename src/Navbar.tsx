@@ -15,7 +15,7 @@ export function NavbarItem(props) {
 	return <li className="NavbarItem">{props.children}</li>;
 }
 
-export function ThemeSwitch() {
+function ThemeSwitch() {
 	const { theme, setTheme } = useTheme();
 	setTheme(localStorage.getItem('theme') === 'dark' ? 'dark' : 'light');
 	return (

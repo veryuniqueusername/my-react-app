@@ -1,103 +1,87 @@
 :root {
-	--ev: white;
+	--ev: rgb(255, 194, 194);
 	--kv: white;
-	--lunch: rgb(170, 170, 170);
-	--ma: rgb(184, 221, 241);
-	--sv: rgb(240, 195, 154);
-	--en: rgb(226, 190, 255);
-	--so: rgb(223, 130, 77);
-	--no: rgb(63, 126, 123);
-	--lab: rgb(37, 66, 64);
-	--sltxt: rgb(204, 142, 171);
-	--sltm: rgb(119, 53, 75);
+	--lunch: rgb(196, 196, 196);
+	--ma: rgb(206, 79, 79);
+	--sv: rgb(253, 217, 100);
+	--en: rgb(105, 164, 253);
+	--so: rgb(205, 139, 243);
+	--no: rgb(73, 126, 63);
+	--lab: rgb(37, 66, 39);
+	--sltxt: rgb(214, 115, 161);
+	--sltm: rgb(124, 21, 56);
 	--tk: rgb(43, 61, 119);
 	--hkk: rgb(149, 218, 135);
-	--mu: rgb(120, 134, 80);
+	--mu: rgb(69, 110, 30);
 	--bl: rgb(50, 81, 117);
 	--lang: rgb(255, 243, 192);
-	--idh: rgb(206, 80, 80);
+	--idh: rgb(134, 43, 43);
 }
 
 .EV {
 	background-color: var(--ev);
 	color: black;
 }
-
 .KV {
 	background-color: var(--kv);
 	color: black;
 }
-
 .Lunch {
 	background-color: var(--lunch);
 	color: black;
 }
-
 .MA {
 	background-color: var(--ma);
 	color: black;
 }
-
 .SV {
 	background-color: var(--sv);
 	color: black;
 }
-
 .EN {
 	background-color: var(--en);
 	color: black;
 }
-
 .SO {
 	background-color: var(--so);
 	color: white;
 }
-
 .NO {
 	background-color: var(--no);
 	color: white;
 }
-
 .NO.Lab {
 	background-color: var(--lab);
 	color: white;
 }
-
 .LANG {
 	background-color: var(--lang);
 	color: black;
 }
-
 .IDH {
 	background-color: var(--idh);
 	color: white;
 }
-
 .TK {
 	background-color: var(--tk);
 	color: white;
 }
-
 .SLTXT {
 	background-color: var(--sltxt);
 	color: black;
 }
-
 .SLTM {
 	background-color: var(--sltm);
 	color: white;
 }
-
 .BL {
 	background-color: var(--bl);
 	color: white;
 }
-
 .MU {
 	background-color: var(--mu);
 	color: white;
 }
-
 .HKK {
 	background-color: var(--hkk);
 	color: black;
