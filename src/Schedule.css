@@ -73,20 +73,21 @@
 .tooltiptext {
 	display: flex;
 	visibility: hidden;
-	width: 8vmax;
+	width: 90%;
 	background-color: rgb(0, 0, 0, 0.5);
+	/* background-color: #0000; */
 	color: #fff;
 	text-align: center;
 	padding: 2px 0;
 	border-radius: 6px;
-	font-size: small;
+	font-size: 60%;
 
 	/* Position the tooltip text */
 	position: absolute;
 	z-index: 10;
 	bottom: 75%;
 	left: 50%;
-	margin-left: -4vmax;
+	margin-left: -45%;
 
 	/* Fade in tooltip */
 	opacity: 0;
