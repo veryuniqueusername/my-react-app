@@ -121,7 +121,6 @@ function scheduleCalc(obj) {
 				<span>Språkval </span>
 				<div className="tooltiptext">
 					<span> {startTime} </span>
-					<span> {teacher} </span>
 					<span> {room} </span>
 					<span> {endTime} </span>
 				</div>
@@ -135,7 +134,6 @@ function scheduleCalc(obj) {
 				<span>{name} </span>
 				<div className="tooltiptext">
 					<span> {startTime} </span>
-					<span> {teacher} </span>
 					<span> {room} </span>
 					<span> {endTime} </span>
 				</div>
@@ -170,7 +168,6 @@ function scheduleCalc(obj) {
 					<span>{name} </span>
 					<div className="tooltiptext">
 						<span> {startTime} </span>
-						<span> {teacher} </span>
 						<span> {room} </span>
 						<span> {endTime} </span>
 					</div>
@@ -179,7 +176,6 @@ function scheduleCalc(obj) {
 					<span>{name2} </span>
 					<div className="tooltiptext">
 						<span> {startTime2} </span>
-						<span> {teacher2} </span>
 						<span> {room2} </span>
 						<span> {endTime2} </span>
 					</div>
