@@ -88,7 +88,6 @@ function scheduleCalc(obj) {
 	var start = obj.start;
 	var end = obj.end;
 	var name = obj.subject;
-	var teacher = obj.teacher;
 	var room = obj.room;
 
 	function arrToTime(arr) {
@@ -146,7 +145,6 @@ function scheduleCalc(obj) {
 		var start2 = obj.start2;
 		var end2 = obj.end2;
 		var name2 = obj.subject2;
-		var teacher2 = obj.teacher2;
 		var room2 = obj.room2;
 		// BUNCH OF STYLING AND POSITIONING
 		var starting2 = ((start2[0] - 5) * 60 + start2[1]) * (5 / 27) * 0.75;
