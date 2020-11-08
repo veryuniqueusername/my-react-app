@@ -3,7 +3,7 @@ import { BsCalendar, BsInfoSquare, BsTable } from 'react-icons/bs';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { ThemeProvider } from './ThemeContext';
 import './App.css';
-import { Navbar, NavbarItem } from './Navbar';
+import { Navbar, NavbarItem, Food } from './Navbar';
 import Calendar from './Calendar';
 import Schedule from './Schedule';
 import Info from './Info';
@@ -13,6 +13,7 @@ export default function App() {
 		<Router>
 			<ThemeProvider>
 				<Navbar>
+					<Food />
 					<Link to="/schedule">
 						<NavbarItem>
 							<BsTable className="Icon" />

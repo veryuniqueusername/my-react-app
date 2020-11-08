@@ -27,3 +27,56 @@ function ThemeSwitch() {
 		</div>
 	);
 }
+
+export function Food() {
+	return (
+		<p
+			id="food"
+			onClick={() => (document.getElementById('food').innerHTML = food())}
+		>
+			{food()}
+		</p>
+	);
+}
+
+function food() {
+	const PROXY = 'https://cors-anywhere.herokuapp.com/';
+	const WEBSITE = 'https://skolmaten.se/karraskolan/rss/days/?offset=2';
+	const xmlToJSON = require('xmltojson');
+
+	function foo(callback) {
+		var xhr = new XMLHttpRequest();
+
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState === 4) {
+				// request is done
+				if (xhr.status === 200) {
+					// successfully
+					callback(xhr.responseText); // we're calling our method
+				}
+			}
+		};
+
+		xhr.open('GET', PROXY + WEBSITE, false);
+		xhr.send();
+	}
+
+	foo(function (xmlString) {
+		var json = xmlToJSON.parseString(xmlString);
+		if (json['rss']['0']['channel']['0']['item'] === undefined) {
+			result = undefined;
+		} else {
+			result =
+				json['rss']['0']['channel']['0']['item']['0']['description']['0'][
+					'_text'
+				];
+		}
+	});
+
+	var result;
+	if (result === undefined) {
+		return 'Nothing for today';
+	} else {
+		return result;
+	}
+}

@@ -25,12 +25,14 @@
 	position: absolute;
 	top: calc(var(--navSize) + 2em);
 	right: 80px;
+	margin: 0;
 }
 
 .ClassList {
 	position: absolute;
 	top: calc(var(--navSize) + 2em);
 	left: 80px;
+	margin: 0;
 }
 
 .ScheduleChanger {

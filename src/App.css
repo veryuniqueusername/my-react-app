@@ -93,3 +93,13 @@ svg.light {
 	right: calc(var(--navSize) * 0.25);
 	position: absolute;
 }
+
+#food {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	text-align: left;
+	left: calc(var(--navSize) * 0.5 - 1.5em);
+	top: calc(var(--navSize) * 0.5 - 1.5em);
+	font-size: calc(16 * 0.1vmin);
+}
