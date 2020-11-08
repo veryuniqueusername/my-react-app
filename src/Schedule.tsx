@@ -1,6 +1,12 @@
 import React from 'react';
 import './Schedule.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link,
+	Redirect,
+} from 'react-router-dom';
 
 // THEME
 if (!localStorage.schedule) {
@@ -28,6 +34,9 @@ export default function Schedule() {
 				<ScheduleChangerButton theme="Skola24" />
 			</div>
 			<Switch>
+				<Route exact path="/schedule">
+					<ClassRedirect />
+				</Route>
 				<Route path="/schedule/blue">
 					<ScheduleViewerClass color="blue" />
 				</Route>
@@ -189,8 +198,7 @@ function ScheduleChangerButton(props) {
 		classes += ' ScheduleChangerActive';
 	}
 	return (
-		<button
-			type="button"
+		<p
 			className={classes}
 			onClick={() => {
 				localStorage.setItem('schedule', props.theme);
@@ -198,7 +206,7 @@ function ScheduleChangerButton(props) {
 			}}
 		>
 			{props.theme}
-		</button>
+		</p>
 	);
 }
 
@@ -233,4 +241,9 @@ function ClassChangerButton(props) {
 			{props.class}
 		</Link>
 	);
+}
+
+function ClassRedirect() {
+	var color = '/schedule/' + localStorage.getItem('class');
+	return <Redirect to={color} />;
 }
