@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BsToggleOn } from 'react-icons/bs';
 import { useTheme } from './ThemeContext';
 
@@ -29,17 +29,14 @@ function ThemeSwitch() {
 }
 
 export function Food() {
-	return (
-		<p
-			id="food"
-			onClick={() => (document.getElementById('food').innerHTML = food())}
-		>
-			{food()}
-		</p>
-	);
+	useEffect(() => {
+		document.getElementById('food').innerHTML = food();
+	});
+
+	return <p id="food">Loading...</p>;
 }
 
-function food() {
+export function food() {
 	const PROXY = 'https://cors-anywhere.herokuapp.com/';
 	const WEBSITE = 'https://skolmaten.se/karraskolan/rss/days/?offset=2';
 	const xmlToJSON = require('xmltojson');
