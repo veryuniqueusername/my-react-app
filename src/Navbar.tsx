@@ -38,7 +38,7 @@ export function Food() {
 
 export function food() {
 	const PROXY = 'https://cors-anywhere.herokuapp.com/';
-	const WEBSITE = 'https://skolmaten.se/karraskolan/rss/days/?offset=2';
+	const WEBSITE = 'https://skolmaten.se/karraskolan/rss/days/?offset=0';
 	const xmlToJSON = require('xmltojson');
 
 	function foo(callback) {
