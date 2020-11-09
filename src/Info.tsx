@@ -3,7 +3,7 @@ import React from 'react';
 export default function Info() {
 	return (
 		<div>
-			<h1>Info</h1>
+			<h1>this is stupid</h1>
 		</div>
 	);
 }

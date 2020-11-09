@@ -1,0 +1,17 @@
+.div {
+	white-space: pre-line;
+	display: flexbox;
+	flex-flow: row;
+	padding: 1vmin;
+	align-items: flex-start;
+
+	column-count: 3;
+	column-gap: 0;
+}
+
+.item {
+	text-align: left;
+	margin: 2vmin 1vmin;
+	padding: 0.5em 1em;
+	background-color: var(--navBackgroundColor);
+}
