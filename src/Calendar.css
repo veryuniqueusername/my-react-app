@@ -19,12 +19,13 @@
 	text-align: left;
 	height: auto;
 	margin: 1vmax 0;
-	padding: 0.5em 1em;
+	padding: 0.1em 1em;
 	background-color: var(--navBackgroundColor);
 }
 
 .item h1 {
 	font-family: 'Courier New', Courier, monospace;
+	margin-top: 0;
 }
 
 .item a {
@@ -43,6 +44,12 @@
 .item a:hover {
 	background-size: 4px 2em;
 	color: #000;
+}
+
+.header {
+	margin: 0;
+	margin-top: 0.5em;
+	font-size: 14px;
 }
 
 .homework {

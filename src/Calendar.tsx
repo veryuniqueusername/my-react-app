@@ -50,6 +50,7 @@ function connectItem(json) {
 
 	return (
 		<div className={classes}>
+			<p className="header">{json['subject']}</p>
 			<h1>{json['title']}</h1>
 			<ReactMarkdown>{info}</ReactMarkdown>
 		</div>
