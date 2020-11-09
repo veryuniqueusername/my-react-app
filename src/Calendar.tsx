@@ -6,6 +6,10 @@ export default function Calendar() {
 	return (
 		<div>
 			<h1>Kalender</h1>
+			<div className="DateFormatList">
+				<DateChangerButton type="Date" />
+				<DateChangerButton type="Week" />
+			</div>
 			<Items />
 		</div>
 	);
@@ -47,15 +51,39 @@ function connectItem(json) {
 	var type = json['type'];
 	info += json['text'].join('\n');
 	var classes = 'item ' + type;
+	var date = json['weekday'] + ' ';
+	if (localStorage.getItem('dateformat') === 'Date') {
+		date += json['date'];
+	} else {
+		date += 'Vecka ' + json['week'];
+	}
 
 	return (
 		<div className={classes}>
 			<div className="header">
 				<p className="subject">{json['subject']}</p>
-				<p className="date">{json['date']}</p>
+				<p className="date">{date}</p>
 			</div>
 			<h1>{json['title']}</h1>
 			<ReactMarkdown>{info}</ReactMarkdown>
 		</div>
+	);
+}
+
+function DateChangerButton(props) {
+	var classes = 'DateChanger';
+	if (localStorage.dateformat === props.type) {
+		classes += ' DateChangerActive';
+	}
+	return (
+		<p
+			className={classes}
+			onClick={() => {
+				localStorage.setItem('dateformat', props.type);
+				window.location.reload();
+			}}
+		>
+			{props.type}
+		</p>
 	);
 }
