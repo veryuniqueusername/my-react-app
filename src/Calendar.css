@@ -18,14 +18,14 @@
 	flex-grow: auto;
 	text-align: left;
 	height: auto;
-	margin: 1vmax 0;
-	padding: 0.1em 1em;
+	margin-bottom: 1vmax;
+	padding: 1px 1em;
 	background-color: var(--navBackgroundColor);
 }
 
 .item h1 {
 	font-family: 'Courier New', Courier, monospace;
-	margin-top: 0;
+	margin-top: 1em;
 }
 
 .item a {
@@ -43,13 +43,23 @@
 
 .item a:hover {
 	background-size: 4px 2em;
-	color: #000;
+	color: var(--color);
 }
 
 .header {
 	margin: 0;
-	margin-top: 0.5em;
+	margin-top: 0em;
 	font-size: 14px;
+	position: absolute;
+	width: calc(100% / 3 - 1.5vmax - 2em);
+}
+
+.subject {
+	float: left;
+}
+
+.date {
+	float: right;
 }
 
 .homework {

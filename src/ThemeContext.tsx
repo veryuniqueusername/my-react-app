@@ -10,6 +10,7 @@ const themeColours = {
 		hoverFilter: 'brightness(0.95)',
 		navShadow: '0px 0px 10px 2px #77777788',
 		scrollbarColor: '#ff00008f',
+		color: '#fff',
 	},
 	dark: {
 		backgroundColor: '#282c34',
@@ -20,6 +21,7 @@ const themeColours = {
 		hoverFilter: 'brightness(1.15)',
 		navShadow: '0px 0px 10px 2px #00000088',
 		scrollbarColor: '#ff007f8f',
+		color: '#000',
 	},
 };
 
