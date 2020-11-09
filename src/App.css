@@ -11,6 +11,10 @@
 	--navShadow: 0px 0px 10px 5px #000000aa;
 	--enabledColor: #316427;
 	--disabledColor: #ad4040;
+	--scrollbarColor: #ff00ff8f;
+	--homework: #00ccff8f;
+	--test: #ff00ff8f;
+	--assignment: #5cd10d8f;
 }
 
 body {
@@ -102,4 +106,24 @@ svg.light {
 	left: calc(var(--navSize) * 0.5 - 1.5em);
 	top: calc(var(--navSize) * 0.5 - 1.5em);
 	font-size: calc(var(--navSize) * 0.25 - 1px);
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--navBackgroundColor);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--scrollbarColor);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--scrollbarColor);
 }

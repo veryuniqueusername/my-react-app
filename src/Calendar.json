@@ -1,132 +1,67 @@
 {
-	"__comment": "type: assignment || test || homework",
+	"__comment": [
+		"class: blue || red || green || all",
+		"type: assignment || test || homework"
+	],
 	"items": [
 		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
+			"weekday": "Onsdag",
+			"class": "blue",
+			"week": "46",
+			"date": "11 November",
+			"subject": "Svenska",
 			"type": "test",
-			"title": "livräddning med boj",
+			"title": "Språkhistoria",
 			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Mer info kommer på lektionen."
+				"Prov på Språkhistoria.",
+				"Sammanfattning och material finns på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/m/MjAwMTQyMTM2Njgw/details)."
+			]
+		},
+		{
+			"weekday": "Onsdag",
+			"class": "blue",
+			"week": "46",
+			"date": "11 November",
+			"subject": "Hemkunskap",
+			"type": "test",
+			"title": "Förberedelse för prov",
+			"text": [
+				"Du läser så mycket du anser dig behöva, men det är alltid bra med mycket!",
+				"Repetera matlagningsmetoder + planera mat s.159-173.",
+				"Matlagningstermer (kortare förklaring) s.306.",
+				"Arbeta i köket s.148-149.",
+				"Diska miljövänligt s.106.",
+				"Planera dina måltider s.45."
+			]
+		},
+		{
+			"weekday": "Fredag",
+			"class": "blue",
+			"week": "46",
+			"date": "13 November",
+			"subject": "Engelska",
+			"type": "homework",
+			"title": "Engelskläxa",
+			"text": [
+				"Läs sidor 112-115 i Textboken. Kapitlet heter *Teenage life in the USA*.",
+				"Skriv ned skillnaderna mellan Karolinas och Christophers liv.",
+				"Hitta minst en skillnad och en likhet om du jämför med ditt liv.",
+				"Det här kommer att användas i diskussioner i grupper de kommande veckorna.",
+				"Lämna in det du skrivit på [Classroom](https://classroom.google.com/u/0/c/MTQ4MTU0Mzk0MzEz/a/MjAzNzgwMzAzODAz/details) innan lektionen."
 			]
 		},
 		{
 			"weekday": "Torsdag",
+			"class": "blue",
 			"week": "47",
 			"date": "19 November",
 			"subject": "Idrott",
 			"type": "test",
-			"title": "livräddning med boj",
+			"title": "Livräddning med boj",
 			"text": [
 				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Mer info kommer på lektionen."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Mer info kommer på lektionen."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Mer info kommer på lektionen."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.dddddddddddddddddddddddddddd",
-				"Mer info kommer på lektionen."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Mer info kommer på lektionen."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Mer info kommer på lektionen."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-
-				"Mer info kommer på lektionen."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Mer info kommer på lektionen."
+				"Glöm inte badkläder.",
+				"Information kommer på lektionen."
 			]
 		}
 	]

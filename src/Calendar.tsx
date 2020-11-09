@@ -12,19 +12,44 @@ export default function Calendar() {
 }
 
 function Items() {
-	var items = [];
+	var items1 = [];
+	var items2 = [];
+	var items3 = [];
 	var json = require('./Calendar.json');
-	json['items'].forEach((data) => items.push(connectItem(data)));
+	for (let i = 0; i < json['items'].length; i++) {
+		var j = i % 3;
+		var list;
+		switch (j) {
+			case 0:
+				list = items1;
+				break;
+			case 1:
+				list = items2;
+				break;
+			case 2:
+				list = items3;
+				break;
+		}
+		list.push(connectItem(json['items'][i]));
+	}
 
-	return <div className="div">{items}</div>;
+	return (
+		<div className="container">
+			<div className="div">{items1}</div>
+			<div className="div">{items2}</div>
+			<div className="div">{items3}</div>
+		</div>
+	);
 }
 
 function connectItem(json) {
 	var info = '';
+	var type = json['type'];
 	info += json['text'].join('\n');
+	var classes = 'item ' + type;
 
 	return (
-		<div className="item">
+		<div className={classes}>
 			<h1>{json['title']}</h1>
 			<ReactMarkdown>{info}</ReactMarkdown>
 		</div>

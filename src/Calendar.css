@@ -1,17 +1,58 @@
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+	width: auto;
+	margin: 0.5vmax;
+	justify-content: space-between;
+}
+
 .div {
 	white-space: pre-line;
 	display: flexbox;
-	flex-flow: row;
-	padding: 1vmin;
-	align-items: flex-start;
-
-	column-count: 3;
-	column-gap: 0;
+	float: left;
+	padding: 0.5vmax;
+	width: calc(100% / 3);
 }
 
 .item {
+	flex-grow: auto;
 	text-align: left;
-	margin: 2vmin 1vmin;
+	height: auto;
+	margin: 1vmax 0;
 	padding: 0.5em 1em;
 	background-color: var(--navBackgroundColor);
+}
+
+.item h1 {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.item a {
+	background: linear-gradient(
+		to bottom,
+		var(--linkColor) 0%,
+		var(--linkColor) 100%
+	);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 0.1em;
+	text-decoration: none;
+	transition: background-size 0.2s;
+}
+
+.item a:hover {
+	background-size: 4px 2em;
+	color: #000;
+}
+
+.homework {
+	border-bottom: 8px solid var(--homework);
+}
+
+.test {
+	border-bottom: 8px solid var(--test);
+}
+
+.assignment {
+	border-bottom: 8px solid var(--assignment);
 }
