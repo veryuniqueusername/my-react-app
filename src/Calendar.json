@@ -63,6 +63,19 @@
 				"Glöm inte badkläder.",
 				"Information kommer på lektionen."
 			]
+		},
+		{
+			"weekday": "Tisdag",
+			"class": "blue",
+			"week": "48",
+			"date": "24 November",
+			"subject": "Teknik",
+			"type": "assignment",
+			"title": "Teknikuppgift",
+			"text": [
+				"Redovisa en teknisk produkt.",
+				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTUzMzA4ODMwMjYz/a/MTQ0NDU1NTg3MjYw/details)"
+			]
 		}
 	]
 }
