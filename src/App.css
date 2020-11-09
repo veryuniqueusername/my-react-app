@@ -101,5 +101,5 @@ svg.light {
 	text-align: left;
 	left: calc(var(--navSize) * 0.5 - 1.5em);
 	top: calc(var(--navSize) * 0.5 - 1.5em);
-	font-size: calc(16 * 0.1vmin);
+	font-size: calc(var(--navSize) * 0.5 - 1px);
 }
