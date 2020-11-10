@@ -6,10 +6,6 @@ export default function Calendar() {
 	return (
 		<div>
 			<h1>Kalender</h1>
-			<div className="DateFormatList">
-				<DateChangerButton type="Date" />
-				<DateChangerButton type="Week" />
-			</div>
 			<Items />
 		</div>
 	);
@@ -20,19 +16,26 @@ function Items() {
 	var items2 = [];
 	var items3 = [];
 	var json = require('./Calendar.json');
-	for (let i = 0; i < json['items'].length; i++) {
-		var j = i % 3;
+	var length = json['items'].length;
+	var listn = 1;
+	var third = Math.ceil(length / 3);
+	var last = length - third - third;
+	for (let i = 0; i < length; i++) {
 		var list;
-		switch (j) {
-			case 0:
+		switch (listn) {
+			case 1:
 				list = items1;
 				break;
-			case 1:
+			case 2:
 				list = items2;
 				break;
-			case 2:
+			case 3:
 				list = items3;
 				break;
+		}
+		if ((listn === 1 || listn === 2) && (i + 1) % third === 0) {
+			listn++;
+		} else if (listn === 3 && (i + 1) % last === 0) {
 		}
 		list.push(connectItem(json['items'][i]));
 	}
@@ -51,12 +54,7 @@ function connectItem(json) {
 	var type = json['type'];
 	info += json['text'].join('\n');
 	var classes = 'item ' + type;
-	var date = json['weekday'] + ' ';
-	if (localStorage.getItem('dateformat') === 'Date') {
-		date += json['date'];
-	} else {
-		date += 'Vecka ' + json['week'];
-	}
+	var date = `${json['weekday']} ${json['date']}, v.${json['week']}`;
 
 	return (
 		<div className={classes}>
@@ -67,23 +65,5 @@ function connectItem(json) {
 			<h1>{json['title']}</h1>
 			<ReactMarkdown>{info}</ReactMarkdown>
 		</div>
-	);
-}
-
-function DateChangerButton(props) {
-	var classes = 'DateChanger';
-	if (localStorage.dateformat === props.type) {
-		classes += ' DateChangerActive';
-	}
-	return (
-		<p
-			className={classes}
-			onClick={() => {
-				localStorage.setItem('dateformat', props.type);
-				window.location.reload();
-			}}
-		>
-			{props.type}
-		</p>
 	);
 }
