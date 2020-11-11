@@ -1,12 +1,13 @@
 import React from 'react';
-import { BsCalendar, BsInfoSquare, BsTable } from 'react-icons/bs';
+import { BsCalendar, BsTable } from 'react-icons/bs';
+import { BiFoodMenu } from 'react-icons/bi';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { ThemeProvider } from './ThemeContext';
 import './App.css';
 import { Navbar, NavbarItem, Food } from './Navbar';
 import Calendar from './Calendar';
 import Schedule from './Schedule';
-import Info from './Info';
+import Info from './FoodSchedule';
 
 export default function App() {
 	return (
@@ -26,10 +27,10 @@ export default function App() {
 							Kalender
 						</NavbarItem>
 					</Link>
-					<Link to="/info">
+					<Link to="/food">
 						<NavbarItem>
-							<BsInfoSquare className="Icon" />
-							Info
+							<BiFoodMenu className="Icon" />
+							Mat
 						</NavbarItem>
 					</Link>
 				</Navbar>
@@ -40,7 +41,7 @@ export default function App() {
 					<Route path="/schedule">
 						<Schedule />
 					</Route>
-					<Route path="/info">
+					<Route path="/food">
 						<Info />
 					</Route>
 				</Switch>

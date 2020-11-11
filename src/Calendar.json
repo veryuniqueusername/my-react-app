@@ -4,19 +4,7 @@
 		"type: assignment || test || homework"
 	],
 	"items": [
-		{
-			"weekday": "Onsdag",
-			"class": "blue",
-			"week": "46",
-			"date": "11 November",
-			"subject": "Svenska",
-			"type": "test",
-			"title": "Språkhistoria",
-			"text": [
-				"Prov på Språkhistoria.",
-				"Sammanfattning och material finns på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/m/MjAwMTQyMTM2Njgw/details)."
-			]
-		},
+
 		{
 			"weekday": "Onsdag",
 			"class": "blue",
@@ -32,6 +20,18 @@
 				"Arbeta i köket s.148-149.",
 				"Diska miljövänligt s.106.",
 				"Planera dina måltider s.45."
+			]
+		},
+		{
+			"weekday": "Fredag",
+			"class": "all",
+			"week": "46",
+			"date": "13 November",
+			"subject": "Franska",
+			"type": "homework",
+			"title": "Glosor",
+			"text": [
+				"Kunna ord och uttryck till kapitlet *Je t'aime*."
 			]
 		},
 		{
