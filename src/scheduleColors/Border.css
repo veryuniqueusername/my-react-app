@@ -1,21 +1,21 @@
 :root {
-	--ev: #617e9e;
-	--kv: #035365;
-	--lunch: #eaffb4;
-	--ma: #92e731;
-	--sv: #e02e2e;
-	--en: #d02bf1;
-	--so: #3258f0;
-	--no: #ffdb0f;
-	--lab: #e0f147;
-	--sltxt: #00c3ce;
-	--sltm: #6ae9ff;
-	--tk: #ffb6db;
-	--hkk: #09a836;
-	--mu: #83ff6b;
-	--bl: #fcd443;
-	--lang: #29d1bb;
-	--idh: #ff7161;
+	--ev: rgb(255, 162, 162);
+	--kv: white;
+	--lunch: rgb(196, 196, 196);
+	--ma: rgb(255, 24, 24);
+	--sv: rgb(255, 212, 71);
+	--en: rgb(30, 146, 255);
+	--so: rgb(229, 30, 255);
+	--no: rgb(43, 180, 16);
+	--lab: rgb(23, 138, 30);
+	--sltxt: rgb(201, 75, 134);
+	--sltm: rgb(146, 40, 75);
+	--tk: rgb(0, 69, 173);
+	--hkk: rgb(38, 228, 0);
+	--mu: rgb(37, 129, 0);
+	--bl: rgb(122, 184, 255);
+	--lang: rgb(240, 255, 35);
+	--idh: rgb(156, 0, 0);
 }
 
 .Subject {
