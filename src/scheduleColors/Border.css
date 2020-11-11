@@ -1,0 +1,109 @@
+:root {
+	--ev: #617e9e;
+	--kv: #035365;
+	--lunch: #eaffb4;
+	--ma: #92e731;
+	--sv: #e02e2e;
+	--en: #d02bf1;
+	--so: #3258f0;
+	--no: #ffdb0f;
+	--lab: #e0f147;
+	--sltxt: #00c3ce;
+	--sltm: #6ae9ff;
+	--tk: #ffb6db;
+	--hkk: #09a836;
+	--mu: #83ff6b;
+	--bl: #fcd443;
+	--lang: #29d1bb;
+	--idh: #ff7161;
+}
+
+.Subject {
+	color: white !important;
+	border: 1px inset var(--backgroundColor);
+}
+
+.EV {
+	border-bottom: 4px inset var(--ev);
+	color: white;
+}
+
+.KV {
+	border-bottom: 4px inset var(--kv);
+	color: white;
+}
+
+.Lunch {
+	border-bottom: 4px inset var(--lunch);
+	color: black;
+}
+
+.MA {
+	border-bottom: 4px inset var(--ma);
+	color: black;
+}
+
+.SV {
+	border-bottom: 4px inset var(--sv);
+	color: white;
+}
+
+.EN {
+	border-bottom: 4px inset var(--en);
+	color: white;
+}
+
+.SO {
+	border-bottom: 4px inset var(--so);
+	color: white;
+}
+
+.NO {
+	border-bottom: 4px inset var(--no);
+	color: black;
+}
+
+.NO.Lab {
+	border-bottom: 4px inset var(--lab);
+	color: black;
+}
+
+.SLTXT {
+	border-bottom: 4px inset var(--sltxt);
+	color: black;
+}
+
+.SLTM {
+	border-bottom: 4px inset var(--sltm);
+	color: black;
+}
+
+.TK {
+	border-bottom: 4px inset var(--tk);
+	color: black;
+}
+
+.HKK {
+	border-bottom: 4px inset var(--hkk);
+	color: black;
+}
+
+.MU {
+	border-bottom: 4px inset var(--mu);
+	color: black;
+}
+
+.BL {
+	border-bottom: 4px inset var(--bl);
+	color: black;
+}
+
+.LANG {
+	border-bottom: 4px inset var(--lang);
+	color: black;
+}
+
+.IDH {
+	border-bottom: 4px inset var(--idh);
+	color: black;
+}

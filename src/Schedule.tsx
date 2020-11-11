@@ -8,8 +8,10 @@ import {
 	Redirect,
 } from 'react-router-dom';
 
+let styleList = ['Default', 'Grayscale', 'Border'];
+
 // THEME
-if (!localStorage.schedule) {
+if (!localStorage.schedule || !styleList.includes(localStorage.schedule)) {
 	localStorage.schedule = 'Default';
 }
 import(`./scheduleColors/${localStorage.schedule}.css`);
@@ -31,7 +33,7 @@ export default function Schedule() {
 			<div className="ColorList">
 				<ScheduleChangerButton theme="Default" />
 				<ScheduleChangerButton theme="Grayscale" />
-				<ScheduleChangerButton theme="Skola24" />
+				<ScheduleChangerButton theme="Border" />
 			</div>
 			<Switch>
 				<Route exact path="/schedule">

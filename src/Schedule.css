@@ -13,6 +13,7 @@
 	display: flex;
 	box-sizing: border-box;
 	border: 1px inset black;
+	background-color: var(--navBackgroundColor);
 	position: absolute;
 	padding: 0;
 }
