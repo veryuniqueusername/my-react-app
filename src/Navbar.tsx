@@ -37,6 +37,10 @@ export function Food() {
 }
 
 export function food() {
+	// EMERGENCY ---------------------------------------
+	// return 'Failed to load';
+	// -------------------------------------------------
+
 	const PROXY = 'https://cors-anywhere.herokuapp.com/';
 	const WEBSITE = 'https://skolmaten.se/karraskolan/rss/days/?offset=0';
 	const xmlToJSON = require('xmltojson');
