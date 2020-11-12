@@ -1,24 +1,44 @@
 import React, { useEffect } from 'react';
-foodWeek();
+import './FoodSchedule.css';
 
 export default function Info() {
 	return (
 		<div>
-			<h1>WIP</h1>
 			<Food />
 		</div>
 	);
 }
 
 export function Food() {
+	var dayList = [];
+	var foodList = [];
+	food('food').forEach((arr) => {
+		foodList.push(arr);
+	});
+
+	food('not food').forEach((arr) => {
+		dayList.push(arr);
+	});
+
+	console.log(foodList);
+	console.log(dayList);
+
 	useEffect(() => {
-		foodWeek().forEach((arr) => {document.getElementById('foodWeek').innerHTML += `<p>${arr}</p>`})
+		for (let i = 0; i < 5; i++) {
+			document.getElementById('foodWeek').innerHTML +=
+				'<p class="day">' + dayList[i] + '</p>';
+			document.getElementById('foodWeek').innerHTML +=
+				'<p>' + foodList[i] + '</p>';
+			if (i !== 4) {
+				document.getElementById('foodWeek').innerHTML += '<hr>';
+			}
+		}
 	});
 
 	return <div id="foodWeek"></div>;
 }
 
-export function foodWeek() {
+export function food(part: String) {
 	// EMERGENCY ---------------------------------------
 	// return 'Failed to load';
 	// -------------------------------------------------
@@ -47,9 +67,15 @@ export function foodWeek() {
 	foo(function (xmlString) {
 		var json = xmlToJSON.parseString(xmlString);
 		result = [];
-		json['rss']['0']['channel']['0']['item'].forEach((arr) => {
-			result.push(arr['description']['0']['_text']);
-		});
+		if (part === 'food') {
+			json['rss']['0']['channel']['0']['item'].forEach((arr) => {
+				result.push(arr['description']['0']['_text']);
+			});
+		} else {
+			json['rss']['0']['channel']['0']['item'].forEach((arr) => {
+				result.push(arr['title']['0']['_text']);
+			});
+		}
 	});
 
 	var result;

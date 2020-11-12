@@ -1,0 +1,15 @@
+#foodWeek {
+	text-align: left;
+	background-color: var(--navBackgroundColor);
+	padding: 1em 2em;
+	margin: 5vw;
+}
+
+#foodWeek p {
+	padding-bottom: 0;
+}
+
+.day {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 800;
+}
