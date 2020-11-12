@@ -20,7 +20,6 @@ function Items() {
 	var listn = 1;
 	var first = Math.ceil(length / 3);
 	var middle = Math.floor(length / 3);
-	var last = length - first - middle;
 	for (let i = 0; i < length; i++) {
 		var list;
 		switch (listn) {
