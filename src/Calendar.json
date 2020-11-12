@@ -4,24 +4,6 @@
 		"type: assignment || test || homework"
 	],
 	"items": [
-
-		{
-			"weekday": "Onsdag",
-			"class": "blue",
-			"week": "46",
-			"date": "11 November",
-			"subject": "Hemkunskap",
-			"type": "test",
-			"title": "Förberedelse för prov",
-			"text": [
-				"Du läser så mycket du anser dig behöva, men det är alltid bra med mycket!",
-				"Repetera matlagningsmetoder + planera mat s.159-173.",
-				"Matlagningstermer (kortare förklaring) s.306.",
-				"Arbeta i köket s.148-149.",
-				"Diska miljövänligt s.106.",
-				"Planera dina måltider s.45."
-			]
-		},
 		{
 			"weekday": "Fredag",
 			"class": "all",
