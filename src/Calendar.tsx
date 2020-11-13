@@ -18,9 +18,23 @@ function Items() {
 	var json = require('./Calendar.json');
 	var length = json['items'].length;
 	var listn = 1;
-	var first = Math.ceil(length / 3);
-	var middle = Math.floor(length / 3);
-	var j = 0;
+	var j = length % 3;
+	var first = 0;
+	var middle = 0;
+	switch (j) {
+		case 0:
+			first = length / 3;
+			middle = length / 3;
+			break;
+		case 1:
+			first = Math.ceil(length / 3);
+			middle = Math.floor(length / 3)
+			break;
+		case 2:
+			first = Math.ceil(length / 3);
+			middle = Math.ceil(length / 3);
+			break;
+	}
 	for (let i = 0; i < length; i++) {
 		var list;
 		switch (listn) {
@@ -34,12 +48,10 @@ function Items() {
 				list = items3;
 				break;
 		}
-		if ((listn === 1 && (j+1) % first === 0) || (listn === 2 && (j+1) % middle === 0)) {
+		if ((listn === 1 && (i + 1) % first === 0) || (listn === 2 && (i + 1) % middle === 0)) {
 			listn++;
-			j = 0;
 		}
 		list.push(connectItem(json['items'][i]));
-		j++;
 	}
 
 	return (
