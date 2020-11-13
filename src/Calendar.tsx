@@ -20,7 +20,7 @@ function Items() {
 	var listn = 1;
 	var first = Math.ceil(length / 3);
 	var middle = Math.floor(length / 3);
-	var j;
+	var j = 0;
 	for (let i = 0; i < length; i++) {
 		var list;
 		switch (listn) {
@@ -34,7 +34,7 @@ function Items() {
 				list = items3;
 				break;
 		}
-		if ((listn === 1 && (i + 1) % first === 0) || (listn === 2 && (i + 1) % middle === 0)) {
+		if ((listn === 1 && (j+1) % first === 0) || (listn === 2 && (j+1) % middle === 0)) {
 			listn++;
 			j = 0;
 		}
