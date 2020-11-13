@@ -20,6 +20,7 @@ function Items() {
 	var listn = 1;
 	var first = Math.ceil(length / 3);
 	var middle = Math.floor(length / 3);
+	var j;
 	for (let i = 0; i < length; i++) {
 		var list;
 		switch (listn) {
@@ -35,8 +36,10 @@ function Items() {
 		}
 		if ((listn === 1 && (i + 1) % first === 0) || (listn === 2 && (i + 1) % middle === 0)) {
 			listn++;
+			j = 0;
 		}
 		list.push(connectItem(json['items'][i]));
+		j++;
 	}
 
 	return (
