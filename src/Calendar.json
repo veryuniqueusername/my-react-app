@@ -5,26 +5,37 @@
 	],
 	"items": [
 		{
-			"weekday": "Fredag",
-			"class": "blue",
-			"week": "46",
-			"date": "13 November",
-			"subject": "Engelska",
-			"type": "homework",
-			"title": "Engelskläxa",
+			"weekday": "Måndag",
+			"class": "all",
+			"week": "47",
+			"date": "16 November",
+			"subject": "Spanska",
+			"type": "test",
+			"title": "Verbtest - presens",
 			"text": [
-				"Läs sidor 112-115 i Textboken. Kapitlet heter *Teenage life in the USA*.",
-				"Skriv ned skillnaderna mellan Karolinas och Christophers liv.",
-				"Hitta minst en skillnad och en likhet om du jämför med ditt liv.",
-				"Det här kommer att användas i diskussioner i grupper de kommande veckorna.",
-				"Lämna in det du skrivit på [Classroom](https://classroom.google.com/u/0/c/MTQ4MTU0Mzk0MzEz/a/MjAzNzgwMzAzODAz/details) innan lektionen."
+				"Ni kommer att få tillbaks testet under samma lektion så att ni får en koll på huruvida ni kan detta gamla moment eller ej."
+			]
+		},
+		{
+			"weekday": "Onsdag",
+			"class": "all",
+			"week": "47",
+			"date": "19 November",
+			"subject": "Spanska",
+			"type": "test",
+			"title": "Skriva en text",
+			"text": [
+				"Skriva text. Ni behöver ha koll på:",
+				"- Futurum",
+				"- Perfekt",
+				"- Hur man går och handlar (tenga, tenga la vuelta, son..., gracias, por favor, cuánto cuesta/n etc)"
 			]
 		},
 		{
 			"weekday": "Torsdag",
 			"class": "blue",
 			"week": "47",
-			"date": "19 November",
+			"date": "18 November",
 			"subject": "Idrott",
 			"type": "test",
 			"title": "Livräddning med boj",
@@ -42,8 +53,24 @@
 			"subject": "Franska",
 			"type": "homework",
 			"title": "Glosor",
+			"text": ["Kunna ord och uttryck till kapitlet *Je t'aime*."]
+		},
+		{
+			"weekday": "Fredag",
+			"class": "blue",
+			"week": "47",
+			"date": "20 November",
+			"subject": "Engelska",
+			"type": "homework",
+			"title": "Engelskläxa",
 			"text": [
-				"Kunna ord och uttryck till kapitlet *Je t'aime*."
+				"Sidor 128-129 i Textboken. Kapitlet heter *A mix of people*.",
+				"Läs och lyssna. Läs högt.",
+				"Skriv en sammanfattning av texten, med hjälp av rubrikerna:",
+				"\nImmigrants",
+				" Native Americans",
+				" African Americans\n",
+				"Lämna in det du skrivit på [Classroom](https://classroom.google.com/u/0/c/MTQ4MTU0Mzk0MzEz/a/MTY2NjY4MTEwNDQ0/details) innan lektionen."
 			]
 		},
 		{

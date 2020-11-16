@@ -28,7 +28,7 @@ function Items() {
 			break;
 		case 1:
 			first = Math.ceil(length / 3);
-			middle = Math.floor(length / 3)
+			middle = Math.floor(length / 3);
 			break;
 		case 2:
 			first = Math.ceil(length / 3);
@@ -48,7 +48,10 @@ function Items() {
 				list = items3;
 				break;
 		}
-		if ((listn === 1 && (i + 1) % first === 0) || (listn === 2 && (i + 1) % middle === 0)) {
+		if (
+			(listn === 1 && (i + 1) % first === 0) ||
+			(listn === 2 && (i + first + 1) % middle === 0)
+		) {
 			listn++;
 		}
 		list.push(connectItem(json['items'][i]));
