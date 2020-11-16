@@ -5,18 +5,6 @@
 	],
 	"items": [
 		{
-			"weekday": "Måndag",
-			"class": "all",
-			"week": "47",
-			"date": "16 November",
-			"subject": "Spanska",
-			"type": "test",
-			"title": "Verbtest - presens",
-			"text": [
-				"Ni kommer att få tillbaks testet under samma lektion så att ni får en koll på huruvida ni kan detta gamla moment eller ej."
-			]
-		},
-		{
 			"weekday": "Onsdag",
 			"class": "all",
 			"week": "47",
