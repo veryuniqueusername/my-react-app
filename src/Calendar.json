@@ -46,6 +46,19 @@
 			]
 		},
 		{
+			"weekday": "Torsdag",
+			"class": "blue",
+			"week": "47",
+			"date": "18 November",
+			"subject": "Svenska",
+			"type": "assignment",
+			"title": "Nyhetsartikel",
+			"text": [
+				"Skriv en nyhetsartikel om vad man vill.",
+				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjI5MTM3NTE0NzE5/details)."
+			]
+		},
+		{
 			"weekday": "Antagligen Fredag",
 			"class": "all",
 			"week": "47",
