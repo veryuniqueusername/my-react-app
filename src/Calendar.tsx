@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import './Calendar.css';
+import gfm from 'remark-gfm';
 
 export default function Calendar() {
 	return (
@@ -80,7 +81,7 @@ function connectItem(json) {
 				<p className="date">{date}</p>
 			</div>
 			<h1>{json['title']}</h1>
-			<ReactMarkdown>{info}</ReactMarkdown>
+			<ReactMarkdown plugins={[gfm]}>{info}</ReactMarkdown>
 		</div>
 	);
 }

@@ -76,3 +76,16 @@
 .assignment {
 	border-bottom: 8px solid var(--assignment);
 }
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 1em;
+}
+
+table, th, td {
+	border: 1px solid var(--textColor);
+}
+
+td, th {
+	padding: 4px;
+}
