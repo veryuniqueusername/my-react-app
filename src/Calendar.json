@@ -47,14 +47,25 @@
 			]
 		},
 		{
-			"weekday": "Antagligen Fredag",
+			"weekday": "Fredag",
 			"class": "all",
 			"week": "47",
 			"date": "20 November",
 			"subject": "Franska",
 			"type": "homework",
 			"title": "Glosor",
-			"text": ["Kunna ord och uttryck till kapitlet *Je t'aime*."]
+			"text": [
+				"Kunna böja verbet **Pouvoir** i presens.",
+				"|Pronomen|Böjning|",
+				"|---|---|",
+				"|Je|Peux|",
+				"|Tu|Peux|",
+				"|Il/Elle/On|Peut|",
+				"|Nous|Pouvons|",
+				"|Vous|Pouvez|",
+				"|Ils/Elles|Peuvent|"
+
+			]
 		},
 		{
 			"weekday": "Fredag",
