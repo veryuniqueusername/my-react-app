@@ -8,7 +8,7 @@ import './App.css';
 import { Navbar, NavbarItem, Food } from './Navbar';
 import Calendar from './Calendar';
 import Schedule from './Schedule';
-import Food from './FoodSchedule';
+import FoodSchedule from './FoodSchedule';
 import Notes from './Notes';
 
 export default function App() {
@@ -38,7 +38,7 @@ export default function App() {
 					<Link to="/notes">
 						<NavbarItem>
 							<CgNotes className="Icon" />
-							Anteckningartre
+							Anteckningar
 						</NavbarItem>
 					</Link>
 				</Navbar>
@@ -50,7 +50,7 @@ export default function App() {
 						<Schedule />
 					</Route>
 					<Route path="/food">
-						<Food />
+						<FoodSchedule />
 					</Route>
 					<Route path="/notes">
 						<Notes />
