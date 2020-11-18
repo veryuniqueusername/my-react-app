@@ -63,12 +63,12 @@ a:hover {
 	align-items: center;
 	justify-content: center;
 	background-color: var(--navBackgroundColor);
-	padding: calc(var(--navSize) * 0.5 - 0.7em);
+	padding: calc(var(--navSize) * 0.5 - 0.7em) 0.5em;
 	transition: filter 250ms;
 	font-weight: normal;
 	color: var(--textColor);
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .NavbarItem:hover {
