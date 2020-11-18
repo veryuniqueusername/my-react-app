@@ -111,6 +111,30 @@
 				"Filmen ska ha varit filmad och klippt, med rätt ljud, och texter om vem som filmen.",
 				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzU4ODA2NzEy/a/MTUwOTI1MTg0Mjk3/details)"
 			]
+		},
+		{
+			"weekday": "Torsdag",
+			"class": "blue",
+			"week": "49",
+			"date": "3 December",
+			"subject": "Matematik",
+			"type": "test",
+			"title": "Matte prov",
+			"text": [
+				"Kapitel 2."
+			]
+		},
+		{
+			"weekday": "Onsdag",
+			"class": "blue",
+			"week": "50",
+			"date": "9 December",
+			"subject": "Engelska",
+			"type": "test",
+			"title": "Grammatik",
+			"text": [
+				"Mer info kommer."
+			]
 		}
 	]
 }
