@@ -19,19 +19,6 @@
 			]
 		},
 		{
-			"weekday": "Torsdag",
-			"class": "blue",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Svenska",
-			"type": "assignment",
-			"title": "Nyhetsartikel",
-			"text": [
-				"Skriv en nyhetsartikel om vad man vill.",
-				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjI5MTM3NTE0NzE5/details)."
-			]
-		},
-		{
 			"weekday": "Fredag",
 			"class": "all",
 			"week": "47",
@@ -82,6 +69,19 @@
 				"Redovisa en teknisk produkt.",
 				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTUzMzA4ODMwMjYz/a/MTQ0NDU1NTg3MjYw/details)"
 			]
+		},
+		{
+		  "weekday": "Torsdag",
+		  "class": "blue",
+		  "week": "48",
+		  "date": "26 November",
+		  "subject": "Svenska",
+		  "type": "assignment",
+		  "title": "Nyhetsartikel",
+		  "text": [
+						"Skriv en nyhetsartikel om vad man vill.",
+						"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjI5MTM3NTE0NzE5/details)."
+					]
 		},
 		{
 			"weekday": "Fredag",
