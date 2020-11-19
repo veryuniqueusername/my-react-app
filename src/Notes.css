@@ -1,8 +1,10 @@
 .Notes {
 	background-color: var(--navBackgroundColor);
-	margin: calc(var(--navSize) * 2);
-	width: auto;
-	height: auto;
+	margin: 5vh 5vw;
+	top: 5vh;
+	left: 5vw;
+	width: 90vw;
+	height: 90vh;
 	position: absolute;
 	color: var(--textColor);
 }
