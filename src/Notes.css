@@ -1,3 +1,4 @@
 .Notes {
   background-color: #000;
+  margin: calc(var(--navSize) * 2);
 }
