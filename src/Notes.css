@@ -1,4 +1,7 @@
 .Notes {
   background-color: #000;
   margin: calc(var(--navSize) * 2);
+  width: auto;
+  height: auto;
+  position: absolute;
 }
