@@ -6,26 +6,6 @@
 	"items": [
 		{
 			"weekday": "Fredag",
-			"class": "all",
-			"week": "47",
-			"date": "20 November",
-			"subject": "Franska",
-			"type": "homework",
-			"title": "Glosor",
-			"text": [
-				"Kunna böja verbet **Pouvoir** i presens Och kunna ord och uttryck till s. 36 av *Tout est bien qui finit bien*.",
-				"|Pronomen|Böjning|",
-				"|---|---|",
-				"|Je|Peux|",
-				"|Tu|Peux|",
-				"|Il/Elle/On|Peut|",
-				"|Nous|Pouvons|",
-				"|Vous|Pouvez|",
-				"|Ils/Elles|Peuvent|"
-			]
-		},
-		{
-			"weekday": "Fredag",
 			"class": "blue",
 			"week": "47",
 			"date": "20 November",
@@ -66,6 +46,26 @@
 			"text": [
 				"Skriv en nyhetsartikel om vad man vill.",
 				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjI5MTM3NTE0NzE5/details)."
+			]
+		},
+		{
+			"weekday": "Fredag",
+			"class": "all",
+			"week": "48",
+			"date": "27 November",
+			"subject": "Franska",
+			"type": "homework",
+			"title": "Glosor",
+			"text": [
+				"Kunna böja verbet **Vouloir** i presens och kunna ord och uttryck till s. 37 av *Tout est bien qui finit bien*.",
+				"|Pronomen|Böjning|",
+				"|---|---|",
+				"|Je|Veux|",
+				"|Tu|Veux|",
+				"|Il/Elle/On|Veut|",
+				"|Nous|Voulons|",
+				"|Vous|Voulez|",
+				"|Ils/Elles|Veulent|"
 			]
 		},
 		{
