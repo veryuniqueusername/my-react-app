@@ -1,10 +1,38 @@
-.Notes {
+:root {
+	--height: calc(100vh - var(--navSize) - 8px);
+}
+
+#Note {
+	resize: none;
+	min-width: calc(80vw - 6px);
+	height: var(--height);
+	float: left;
+	background-color: var(--backgroundColor);
+	margin: 0;
+}
+
+#List {
 	background-color: var(--navBackgroundColor);
-	margin: 5vh 5vw;
-	top: 5vh;
-	left: 5vw;
-	width: 90vw;
-	height: 90vh;
-	position: absolute;
-	color: var(--textColor);
+	width: 20%;
+	margin: 0;
+	float: left;
+	height: var(--height);
+}
+
+.ListItem {
+	list-style-type: none;
+	text-align: left;
+	padding: 8px 0 8px 8px;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	color: #bcc5d1;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.ListItem:hover,
+.ListItemActive {
+	filter: brightness(1.6);
 }
