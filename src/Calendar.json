@@ -5,20 +5,6 @@
 	],
 	"items": [
 		{
-			"weekday": "Torsdag",
-			"class": "blue",
-			"week": "47",
-			"date": "19 November",
-			"subject": "Idrott",
-			"type": "test",
-			"title": "Livräddning med boj",
-			"text": [
-				"Vi samlas i Kärra Simhall för **livräddning med boj**.",
-				"Glöm inte badkläder.",
-				"Information kommer på lektionen."
-			]
-		},
-		{
 			"weekday": "Fredag",
 			"class": "all",
 			"week": "47",
@@ -36,7 +22,6 @@
 				"|Nous|Pouvons|",
 				"|Vous|Pouvez|",
 				"|Ils/Elles|Peuvent|"
-
 			]
 		},
 		{
@@ -71,17 +56,17 @@
 			]
 		},
 		{
-		  "weekday": "Torsdag",
-		  "class": "blue",
-		  "week": "48",
-		  "date": "26 November",
-		  "subject": "Svenska",
-		  "type": "assignment",
-		  "title": "Nyhetsartikel",
-		  "text": [
-						"Skriv en nyhetsartikel om vad man vill.",
-						"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjI5MTM3NTE0NzE5/details)."
-					]
+			"weekday": "Torsdag",
+			"class": "blue",
+			"week": "48",
+			"date": "26 November",
+			"subject": "Svenska",
+			"type": "assignment",
+			"title": "Nyhetsartikel",
+			"text": [
+				"Skriv en nyhetsartikel om vad man vill.",
+				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjI5MTM3NTE0NzE5/details)."
+			]
 		},
 		{
 			"weekday": "Fredag",
@@ -105,9 +90,7 @@
 			"subject": "Matematik",
 			"type": "test",
 			"title": "Matte prov",
-			"text": [
-				"Kapitel 2."
-			]
+			"text": ["Kapitel 2."]
 		},
 		{
 			"weekday": "Onsdag",
@@ -117,9 +100,7 @@
 			"subject": "Engelska",
 			"type": "test",
 			"title": "Grammatik",
-			"text": [
-				"Mer info kommer."
-			]
+			"text": ["Mer info kommer."]
 		}
 	]
 }
