@@ -1,16 +1,18 @@
 import React from 'react';
 import './Notes.css';
+import { Editor, EditorState } from 'draft-js';
+import 'draft-js/dist/Draft.css';
 
 if (localStorage.getItem('notes')) {
 	localStorage.setItem(
 		'notes',
-		'{"notes": [["first note with a long name", "note line 1", "note line 2"], ["different note", "another line"]]}'
+		'{"notes": [["first note with a very long name", "note line 1", "note line 2"], ["different note", "another line"]]}'
 	);
 }
 
 export default function Notes() {
 	return (
-		<div>
+		<div className="container">
 			<NoteList />
 			<Note />
 		</div>
@@ -42,5 +44,9 @@ function ListItem(arr) {
 }
 
 function Note() {
-	return <textarea id="Note"></textarea>;
+	const [editorState, setEditorState] = React.useState(() =>
+		EditorState.createEmpty()
+	);
+
+	return <textarea id="Note" placeholder="Type text here"></textarea>;
 }

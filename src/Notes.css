@@ -1,22 +1,37 @@
 :root {
-	--height: calc(100vh - var(--navSize) - 8px);
+	--height: calc(100vh - var(--navSize) - 1px);
+}
+
+.container {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	height: var(--height);
 }
 
 #Note {
 	resize: none;
-	min-width: calc(80vw - 6px);
-	height: var(--height);
-	float: left;
 	background-color: var(--backgroundColor);
 	margin: 0;
+	border: 0 solid #000;
+	color: var(--textColor);
+	font-size: 20px;
+	font-family: 'Open Sans';
+	padding: 8px;
+	flex-grow: 4;
+	flex-basis: 0;
+}
+
+#Note:focus {
+	outline: 0 solid #000;
 }
 
 #List {
 	background-color: var(--navBackgroundColor);
-	width: 20%;
 	margin: 0;
 	float: left;
-	height: var(--height);
+	flex-grow: 1;
+	flex-basis: 0;
 }
 
 .ListItem {
