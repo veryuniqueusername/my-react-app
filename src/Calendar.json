@@ -5,24 +5,6 @@
 	],
 	"items": [
 		{
-			"weekday": "Fredag",
-			"class": "blue",
-			"week": "47",
-			"date": "20 November",
-			"subject": "Engelska",
-			"type": "homework",
-			"title": "Engelskläxa",
-			"text": [
-				"Sidor 128-129 i Textboken. Kapitlet heter *A mix of people*.",
-				"Läs och lyssna. Läs högt.",
-				"Skriv en sammanfattning av texten, med hjälp av rubrikerna:",
-				"\nImmigrants",
-				" Native Americans",
-				" African Americans\n",
-				"Lämna in det du skrivit på [Classroom](https://classroom.google.com/u/0/c/MTQ4MTU0Mzk0MzEz/a/MTY2NjY4MTEwNDQ0/details) innan lektionen."
-			]
-		},
-		{
 			"weekday": "Tisdag",
 			"class": "blue",
 			"week": "48",
