@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Notes.css';
 import 'draft-js/dist/Draft.css';
 import { FiPlus, FiTrash2 } from 'react-icons/fi';
@@ -125,6 +125,7 @@ function Note() {
 	useEffect(() => {
 		var area = document.getElementById('Note') as HTMLTextAreaElement;
 		var noteList = JSON.parse(localStorage.getItem('notes'))['notes'];
+		selected = 0;
 		while (!noteList[selected]) {
 			selected++;
 		}
