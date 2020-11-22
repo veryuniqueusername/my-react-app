@@ -9,7 +9,7 @@ setInterval(tick, 1000);
 
 function runFirst() {
 	if (
-		localStorage.getItem('notes') ||
+		!localStorage.getItem('notes') ||
 		!JSON.parse(localStorage.getItem('notes'))['notes']
 	) {
 		bigError();
