@@ -17,7 +17,7 @@
 	display: flex;
 }
 
-#Note {
+#NoteArea {
 	resize: none;
 	background-color: var(--backgroundColor);
 	margin: 0;
@@ -30,11 +30,11 @@
 	flex-basis: 0;
 }
 
-#Note:focus {
+#NoteArea:focus {
 	outline: 0 solid #000;
 }
 
-#List {
+#NoteList {
 	background-color: var(--navBackgroundColor);
 	margin: 0;
 	float: left;
@@ -43,7 +43,7 @@
 	word-break: break-word;
 }
 
-#List:focus {
+#NoteList:focus {
 	outline: 0 solid #000;
 }
 
