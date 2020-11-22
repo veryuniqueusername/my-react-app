@@ -41,7 +41,6 @@ export const ThemeProvider = ({ children }: Props) => {
 	const setTheme = (name: ThemeName) => {
 		Object.entries(themeColours[name]).forEach((item) => {
 			document.body.style.setProperty('--' + item[0], item[1]);
-			console.log(document.body.style.getPropertyValue('--' + item));
 		});
 		setThemeName(name);
 

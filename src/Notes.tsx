@@ -4,14 +4,12 @@ import 'draft-js/dist/Draft.css';
 import { FiPlus, FiTrash2 } from 'react-icons/fi';
 import { useEffect } from 'react';
 
-function tick() {
-	console.log(localStorage.getItem('notes'));
-}
+function tick() {}
 setInterval(tick, 1000);
 
 function runFirst() {
 	if (
-		!localStorage.getItem('notes') ||
+		localStorage.getItem('notes') ||
 		!JSON.parse(localStorage.getItem('notes'))['notes']
 	) {
 		bigError();
