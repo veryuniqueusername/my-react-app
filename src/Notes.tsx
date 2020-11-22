@@ -125,7 +125,10 @@ function Note() {
 	useEffect(() => {
 		var area = document.getElementById('Note') as HTMLTextAreaElement;
 		var noteList = JSON.parse(localStorage.getItem('notes'))['notes'];
-		while (noteList) area.value = noteList[selected]['text'];
+		while (!noteList[selected]) {
+			selected++;
+		}
+		area.value = noteList[selected]['text'];
 	});
 
 	return (
