@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Notes.css';
 import 'draft-js/dist/Draft.css';
 import { FiPlus, FiTrash2 } from 'react-icons/fi';
+import { useEffect } from 'react';
 
 if (!localStorage.getItem('notes')) {
 	localStorage.setItem(
@@ -10,7 +11,7 @@ if (!localStorage.getItem('notes')) {
 	);
 }
 
-let selected = -1;
+let selected = 0;
 
 export default function Notes() {
 	return (
@@ -49,7 +50,7 @@ function ListItem(obj, key) {
 		var area = document.getElementById('Note') as HTMLTextAreaElement;
 		area.value = obj.text;
 		selected = key;
-		console.log('selected ' + key);
+		console.log(selected);
 	}
 
 	return (
@@ -60,10 +61,11 @@ function ListItem(obj, key) {
 			onInput={() => {
 				updateLocalStorage(
 					'name',
-					(document.getElementById('Note') as HTMLTextAreaElement).value
+					document.getElementById(`Note${key}`).innerHTML
 				);
 			}}
 			key={key}
+			id={`Note${key}`}
 		>
 			{obj.name}
 		</li>
@@ -112,19 +114,24 @@ function RemoveItem(props) {
 }
 
 function updateLocalStorage(type, text) {
-	var selectedNote = JSON.parse(localStorage.getItem('notes'))['notes'][
-		selected
-	];
+	var storage: Object = JSON.parse(localStorage.getItem('notes'));
+	var selectedNote = storage['notes'][selected];
 	selectedNote[type] = text;
-	console.log('updated storage');
+
+	localStorage.setItem('notes', JSON.stringify(storage));
 }
 
 function Note() {
+	useEffect(() => {
+		var area = document.getElementById('Note') as HTMLTextAreaElement;
+		var noteList = JSON.parse(localStorage.getItem('notes'))['notes'];
+		while (noteList) area.value = noteList[selected]['text'];
+	});
+
 	return (
 		<textarea
 			id="Note"
-			placeholder={selected === -1 ? 'Välj en anteckning' : 'Skriv här'}
-			disabled={selected === -1 ? true : false}
+			placeholder="Skriv här"
 			onInput={() => {
 				updateLocalStorage(
 					'text',
