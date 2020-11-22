@@ -2,11 +2,19 @@
 	--height: calc(100vh - var(--navSize) - 1px);
 }
 
-.container {
+.ContainerLarge {
 	display: flex;
 	padding: 0;
 	margin: 0;
 	height: var(--height);
+}
+
+.ContainerSmall {
+	float: none;
+	width: 100%;
+	height: 28px;
+	padding: 8px 0 24px 8px;
+	display: flex;
 }
 
 #Note {
@@ -32,6 +40,11 @@
 	float: left;
 	flex-grow: 1;
 	flex-basis: 0;
+	word-break: break-word;
+}
+
+#List:focus {
+	outline: 0 solid #000;
 }
 
 .ListItem {
@@ -47,7 +60,34 @@
 	margin: 0;
 }
 
-.ListItem:hover,
-.ListItemActive {
+.ListItem:hover {
 	filter: brightness(1.6);
+}
+
+.ListItem:focus {
+	outline: 0 solid #000;
+}
+
+.ListItem:empty:after {
+	content: 'Skriv här';
+	filter: brightness(0.6);
+}
+
+.ListButton {
+	list-style-type: none;
+	text-align: left;
+	padding: 8px 8px 0 0;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	color: #bcc5d1;
+	font-size: 28px;
+	margin: 0;
+}
+
+.ListButton:hover {
+	filter: brightness(1.6);
+}
+
+.ListButton:focus {
+	outline: 0 solid #000;
 }

@@ -33,7 +33,7 @@ export function Food() {
 		document.getElementById('food').innerHTML = food();
 	});
 
-	return <p id="food">Loading...</p>;
+	return <p id="food">Laddar...</p>;
 }
 
 export function food() {
@@ -76,7 +76,7 @@ export function food() {
 
 	var result;
 	if (result === undefined) {
-		return 'Nothing for today';
+		return 'Inget för idag';
 	} else {
 		return result;
 	}

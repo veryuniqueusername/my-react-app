@@ -47,6 +47,8 @@ a:hover {
 	justify-content: center;
 	border-bottom: var(--navBorder);
 	box-shadow: var(--navShadow);
+	position: relative;
+	z-index: 10000;
 }
 
 .NavbarList {

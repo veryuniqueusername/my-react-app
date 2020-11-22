@@ -82,10 +82,13 @@ table {
 	margin-bottom: 1em;
 }
 
-table, th, td {
+table,
+th,
+td {
 	border: 1px solid var(--textColor);
 }
 
-td, th {
+td,
+th {
 	padding: 4px;
 }
