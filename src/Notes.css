@@ -53,15 +53,16 @@
 	padding: 8px 0 8px 8px;
 	cursor: pointer;
 	transition: all 0.25s ease;
-	color: #bcc5d1;
+	color: var(--textColor);
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 22px;
 	font-weight: 700;
 	margin: 0;
+	filter: brightness(0.8);
 }
 
 .ListItem:hover {
-	filter: brightness(1.6);
+	filter: brightness(1.2);
 }
 
 .ListItem:focus {
@@ -79,13 +80,14 @@
 	padding: 8px 8px 0 0;
 	cursor: pointer;
 	transition: all 0.25s ease;
-	color: #bcc5d1;
+	color: var(--textColor);
 	font-size: 28px;
 	margin: 0;
+	filter: brightness(0.8);
 }
 
 .ListButton:hover {
-	filter: brightness(1.6);
+	filter: brightness(1.2);
 }
 
 .ListButton:focus {
