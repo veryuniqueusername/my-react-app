@@ -79,6 +79,19 @@
 			]
 		},
 		{
+			"weekday": "Måndag",
+			"class": "blue",
+			"week": "49",
+			"date": "30 November",
+			"subject": "SO",
+			"type": "test",
+			"title": "Resonerande text",
+			"text": [
+				"Man kommer att få någonting att resonera om.",
+				"Man kommer inte att ha tillgång till internet."
+			]
+		},
+		{
 			"weekday": "Torsdag",
 			"class": "blue",
 			"week": "49",
