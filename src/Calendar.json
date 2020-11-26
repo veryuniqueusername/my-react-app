@@ -5,20 +5,6 @@
 	],
 	"items": [
 		{
-			"weekday": "Onsdag",
-			"class": "all",
-			"week": "48",
-			"date": "25 November",
-			"subject": "Skola",
-			"type": "assignment",
-			"title": "Datorbyte",
-			"text": [
-				"Ta med dator och datorladdare.",
-				"De ska bytas ut för att datorerna krånglar. Vi kommer fortfarande att ha Chromebooks.",
-				"Skolan har inte råd för bättre datorer."
-			]
-		},
-		{
 			"weekday": "Torsdag",
 			"class": "blue",
 			"week": "48",
