@@ -5,40 +5,6 @@
 	],
 	"items": [
 		{
-			"weekday": "Fredag",
-			"class": "all",
-			"week": "48",
-			"date": "27 November",
-			"subject": "Franska",
-			"type": "homework",
-			"title": "Glosor",
-			"text": [
-				"Kunna böja verbet **Vouloir** i presens och kunna ord och uttryck till s. 37 av *Tout est bien qui finit bien*.",
-				"|Pronomen|Böjning|",
-				"|---|---|",
-				"|Je|Veux|",
-				"|Tu|Veux|",
-				"|Il/Elle/On|Veut|",
-				"|Nous|Voulons|",
-				"|Vous|Voulez|",
-				"|Ils/Elles|Veulent|"
-			]
-		},
-		{
-			"weekday": "Fredag",
-			"class": "blue",
-			"week": "48",
-			"date": "27 November",
-			"subject": "Bild",
-			"type": "assignment",
-			"title": "Reklamfilm",
-			"text": [
-				"Göra en reklamfilm.",
-				"Filmen ska ha varit filmad och klippt, med rätt ljud, och texter om vem som filmen.",
-				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzU4ODA2NzEy/a/MTUwOTI1MTg0Mjk3/details)"
-			]
-		},
-		{
 			"weekday": "Måndag",
 			"class": "blue",
 			"week": "49",
@@ -60,6 +26,20 @@
 			"type": "test",
 			"title": "Matte prov",
 			"text": ["Kapitel 2. Studera också basläger och hög höjd."]
+		},
+		{
+			"weekday": "Fredag",
+			"class": "blue",
+			"week": "49",
+			"date": "4 December",
+			"subject": "Bild",
+			"type": "assignment",
+			"title": "Reklamfilm",
+			"text": [
+				"Göra en reklamfilm.",
+				"Filmen ska ha varit filmad och klippt, med rätt ljud, och texter om vem som filmen.",
+				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzU4ODA2NzEy/a/MTUwOTI1MTg0Mjk3/details)"
+			]
 		},
 		{
 			"weekday": "Onsdag",
