@@ -14,7 +14,7 @@
 			"title": "Reklamfilm",
 			"text": [
 				"Göra en reklamfilm.",
-				"Filmen ska ha varit filmad och klippt, med rätt ljud, och texter om vem som filmen.",
+				"Filmen ska ha varit filmad och klippt, med rätt ljud, och texter om vem som skapat filmen.",
 				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzU4ODA2NzEy/a/MTUwOTI1MTg0Mjk3/details)"
 			]
 		},
@@ -26,7 +26,37 @@
 			"subject": "Engelska",
 			"type": "test",
 			"title": "Grammatik",
-			"text": ["Mer info kommer."]
+			"text": [
+				"Oregelbundna verb.",
+				"En lista finns på [Classroom](https://classroom.google.com/c/MTQ4MTU0Mzk0MzEz/p/MjEwMzgwMjQxMzQ1/details)"
+			]
+		},
+		{
+			"weekday": "Torsdag",
+			"class": "blue",
+			"week": "50",
+			"date": "10 December",
+			"subject": "Idrott",
+			"type": "test",
+			"title": "Livräddning med boj",
+			"text": [
+				"För de som inte har gjort det än.",
+				"Samlas vid framsidan av simhallen istället för vanlig idrott."
+			]
+		},
+		{
+			"weekday": "Tisdag",
+			"class": "blue",
+			"week": "51",
+			"date": "15 December",
+			"subject": "Teknik",
+			"type": "assignment",
+			"title": "Yrkesval",
+			"text": [
+				"Redovisa ett yrke.",
+				"Skriv med de tekniska kvalificationer som behövs för yrket samt hur det ser ut att industrin kommer att gå i framtiden.",
+				"Nämn också flera anledningar till att du väljer just det här jobbet.",
+				"Lämna in på [Classroom](https://classroom.google.com/c/MTUzMzA4ODMwMjYz/a/MjM4NTUzMTc4MDc3/details)."]
 		},
 		{
 			"weekday": "Fredag",
@@ -37,6 +67,24 @@
 			"type": "assignment",
 			"title": "Läslogg",
 			"text": ["Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjA5MTcyOTAwODUx/details)."]
+		},
+		{
+			"weekday": "Fredag",
+			"class": "blue",
+			"week": "51",
+			"date": "18 December",
+			"subject": "Bild",
+			"type": "assignment",
+			"title": "Kortfilm",
+			"text": [
+				"Man ska enskilt göra en kortfilm på 30 sekunder.",
+				"Filmen kan handla om vad som helst.",
+				"Man ska också lämna in en liten beskrivning om vad filmen handlar om.",
+				"Bedömning ser på kreativitet på filmidé och påhittighet, samt hur man tagit hjälp av t.ex. familjemedlemmar.",
+				"Bedömningen kollar också på hur man använder perspektiv och hur man har klippt filmen.",
+				"Man kan använda vilket redigeringsprogram som helst.",
+				"Lämna in på [Classroom](https://classroom.google.com/c/MTQ4MzU4ODA2NzEy/a/MjEwMTkxNjE1MjU0/details)."
+			]
 		}
 	]
 }
