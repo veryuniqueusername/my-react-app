@@ -10,7 +10,7 @@
 			"week": "50",
 			"date": "9 December",
 			"subject": "Jobbmentor",
-			"type": "test",
+			"type": "special",
 			"title": "Jobbmentor",
 			"text": [
 				"2 timmar.",
@@ -92,7 +92,7 @@
 			"week": "52",
 			"date": "22 December",
 			"subject": "Skola",
-			"type": "test",
+			"type": "special",
 			"title": "Avslutning",
 			"text": [
 				"8:00 - 10:30",
