@@ -6,6 +6,20 @@
 	"items": [
 		{
 			"weekday": "Onsdag",
+			"class": "all",
+			"week": "50",
+			"date": "9 December",
+			"subject": "",
+			"type": "test",
+			"title": "Jobbmentor",
+			"text": [
+				"2 timmar."
+				"Något med polis, brand, försvar, programmering/design, jurist.",
+				"Förbered frågor om man vill."
+			]
+		},
+		{
+			"weekday": "Onsdag",
 			"class": "blue",
 			"week": "50",
 			"date": "9 December",
@@ -70,6 +84,19 @@
 				"Bedömningen kollar också på hur man använder perspektiv och hur man har klippt filmen.",
 				"Man kan använda vilket redigeringsprogram som helst.",
 				"Lämna in på [Classroom](https://classroom.google.com/c/MTQ4MzU4ODA2NzEy/a/MjEwMTkxNjE1MjU0/details)."
+			]
+		},
+		{
+			"weekday": "Tisdag",
+			"class": "all",
+			"week": "52",
+			"date": "22 December",
+			"subject": "",
+			"type": "test",
+			"title": "Avslutning",
+			"text": [
+				"8:00 - 10:30",
+				"Man kan välja vad man vill göra."
 			]
 		}
 	]
