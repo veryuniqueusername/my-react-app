@@ -77,6 +77,10 @@
 	border-bottom: 8px solid var(--assignment);
 }
 
+.special {
+  border-bottom: 8px solid var(--special);
+}
+
 table {
 	border-collapse: collapse;
 	margin-bottom: 1em;

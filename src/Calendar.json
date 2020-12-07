@@ -1,7 +1,7 @@
 {
 	"__comment": [
 		"class: blue || red || green || all",
-		"type: assignment || test || homework"
+		"type: assignment || test || homework || special"
 	],
 	"items": [
 		{
@@ -9,7 +9,7 @@
 			"class": "all",
 			"week": "50",
 			"date": "9 December",
-			"subject": null,
+			"subject": "Jobbmentor",
 			"type": "test",
 			"title": "Jobbmentor",
 			"text": [
@@ -91,7 +91,7 @@
 			"class": "all",
 			"week": "52",
 			"date": "22 December",
-			"subject": null,
+			"subject": "Skola",
 			"type": "test",
 			"title": "Avslutning",
 			"text": [
