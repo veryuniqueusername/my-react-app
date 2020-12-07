@@ -9,7 +9,7 @@
 			"class": "all",
 			"week": "50",
 			"date": "9 December",
-			"subject": "",
+			"subject": null,
 			"type": "test",
 			"title": "Jobbmentor",
 			"text": [
@@ -91,7 +91,7 @@
 			"class": "all",
 			"week": "52",
 			"date": "22 December",
-			"subject": "",
+			"subject": null,
 			"type": "test",
 			"title": "Avslutning",
 			"text": [
