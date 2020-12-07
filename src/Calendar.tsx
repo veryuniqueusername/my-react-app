@@ -70,8 +70,9 @@ function Items() {
 function connectItem(json) {
 	var info = '';
 	var type = json['type'];
+	var classname = json['class'];
 	info += json['text'].join('\n');
-	var classes = 'item ' + type;
+	var classes = classname + ' item ' + type;
 	var date = `${json['weekday']} ${json['date']}, v.${json['week']}`;
 
 	return (
