@@ -11,7 +11,7 @@ const themeColours = {
 		navShadow: '0px 0px 10px 2px #77777788',
 		scrollbarColor: '#ff00008f',
 		color: '#fff',
-		special: '#2222228f'
+		special: '#0000008f'
 	},
 	dark: {
 		backgroundColor: '#282c34',
@@ -23,7 +23,7 @@ const themeColours = {
 		navShadow: '0px 0px 10px 2px #00000088',
 		scrollbarColor: '#ff007f8f',
 		color: '#000',
-		special: '#dddddd8f'
+		special: '#ffffff8f'
 	},
 };
 
