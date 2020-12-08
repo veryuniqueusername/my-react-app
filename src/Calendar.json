@@ -45,6 +45,22 @@
 			]
 		},
 		{
+			"weekday": "Måndag",
+			"class": "blue",
+			"week": "51",
+			"date": "14 December",
+			"subject": "Franska",
+			"type": "test",
+			"title": "Läsförståelse",
+			"text": [
+				"De texter som omfattas är 2a, 2b och 2c och temat är kärlek (de sidor som gäller är: 32, 33, 36, 37, 38 och övre delen av sidan 39, samt s. 40, 41, 42 + glosor som hör till).",
+				"Eftersom provet kommer att bestå av en läsförståelse är det viktig att förstå både delar och helheter.",
+				"Träna alltså på att förstå hela historierna och på att förstå betydelsen av enskilda ord.",
+				"Här är också centralt att förstå de olika pronomen som förekommer i texterna: possessiva, demonstrativa och objektspronomen.",
+				"Använd dig gärna av de övningar som finns på [Övningsmästaren](https://www.ovningsmastaren.se)"
+			]
+		},
+		{
 			"weekday": "Tisdag",
 			"class": "blue",
 			"week": "51",
