@@ -5,33 +5,6 @@
 	],
 	"items": [
 		{
-			"weekday": "Onsdag",
-			"class": "all",
-			"week": "50",
-			"date": "9 December",
-			"subject": "Jobbmentor",
-			"type": "special",
-			"title": "Jobbmentor",
-			"text": [
-				"2 timmar.",
-				"Något med polis, brand, försvar, programmering/design, jurist.",
-				"Förbered frågor om man vill."
-			]
-		},
-		{
-			"weekday": "Onsdag",
-			"class": "blue",
-			"week": "50",
-			"date": "9 December",
-			"subject": "Engelska",
-			"type": "test",
-			"title": "Grammatik",
-			"text": [
-				"Oregelbundna verb, bland annat.",
-				"En lista på oregelbundna verb finns på [Classroom](https://classroom.google.com/c/MTQ4MTU0Mzk0MzEz/p/MjEwMzgwMjQxMzQ1/details)"
-			]
-		},
-		{
 			"weekday": "Torsdag",
 			"class": "blue",
 			"week": "50",
