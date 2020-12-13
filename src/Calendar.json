@@ -32,7 +32,8 @@
 				"Redovisa ett yrke.",
 				"Skriv med de tekniska kvalificationer som behövs för yrket samt hur det ser ut att industrin kommer att gå i framtiden.",
 				"Nämn också flera anledningar till att du väljer just det här jobbet.",
-				"Lämna in på [Classroom](https://classroom.google.com/c/MTUzMzA4ODMwMjYz/a/MjM4NTUzMTc4MDc3/details)."]
+				"Lämna in på [Classroom](https://classroom.google.com/c/MTUzMzA4ODMwMjYz/a/MjM4NTUzMTc4MDc3/details)."
+			]
 		},
 		{
 			"weekday": "Fredag",
@@ -42,7 +43,9 @@
 			"subject": "Svenska",
 			"type": "assignment",
 			"title": "Läslogg",
-			"text": ["Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjA5MTcyOTAwODUx/details)."]
+			"text": [
+				"Lämna in på [Classroom](https://classroom.google.com/u/0/c/MTQ4MzUyODIyNzc1/a/MjA5MTcyOTAwODUx/details)."
+			]
 		},
 		{
 			"weekday": "Fredag",
@@ -53,6 +56,7 @@
 			"type": "assignment",
 			"title": "Kortfilm",
 			"text": [
+				"Inte obligatorisk.",
 				"Man ska enskilt göra en kortfilm på 30 sekunder.",
 				"Filmen kan handla om vad som helst.",
 				"Man ska också lämna in en liten beskrivning om vad filmen handlar om.",
@@ -70,10 +74,7 @@
 			"subject": "Skola",
 			"type": "special",
 			"title": "Sista dagen",
-			"text": [
-				"Schemabrytande dag?",
-				"Jag vet inte längre."
-			]
+			"text": ["8:00 - 10:30", "Tror jag."]
 		}
 	]
 }
