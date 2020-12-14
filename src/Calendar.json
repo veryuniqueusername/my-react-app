@@ -5,6 +5,20 @@
 	],
 	"items": [
 		{
+			"weekday": "Hela",
+			"class": "blue",
+			"week": "51",
+			"date": "Veckan",
+			"subject": "Skola",
+			"type": "special",
+			"title": "Info",
+			"text": [
+				"Torsdag och fredag är schemabrytande.",
+				"HKK böcker ska lämnas in till Kerstin.",
+				"Kontrollera att du inte råkar ha SO eller svenska böcker hemma eller i skåpet, de ska lämnas in till Frans respektive Emelie."
+				]
+		},
+		{
 			"weekday": "Måndag",
 			"class": "blue",
 			"week": "51",
@@ -33,6 +47,20 @@
 				"Skriv med de tekniska kvalificationer som behövs för yrket samt hur det ser ut att industrin kommer att gå i framtiden.",
 				"Nämn också flera anledningar till att du väljer just det här jobbet.",
 				"Lämna in på [Classroom](https://classroom.google.com/c/MTUzMzA4ODMwMjYz/a/MjM4NTUzMTc4MDc3/details)."
+			]
+		},
+		{
+			"weekday": "Torsdag",
+			"class": "all",
+			"week": "51",
+			"date": "17 December",
+			"subject": "Skola",
+			"type": "special",
+			"title": "Schemabrytande dag",
+			"text": [
+				"Blå har sovmorgon och börjar alltså med idrotten 10:00, samt har vi Louise på matten.",
+				"Röd har musik och NO med Emelie och går hem efter engelskan.",
+				"Grön har NO med Janne och Anki."
 			]
 		},
 		{
@@ -74,7 +102,7 @@
 			"subject": "Skola",
 			"type": "special",
 			"title": "Sista dagen",
-			"text": ["8:00 - 10:30", "Tror jag."]
+			"text": ["8:00 - 10:30 i skolan", "Alla stannar i sina klassrum.", "Städning - Skåp och väggar.", "Man får ta med brädspel.", "Skolan bjuder på fika."]
 		}
 	]
 }
