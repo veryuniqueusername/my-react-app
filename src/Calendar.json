@@ -5,14 +5,14 @@
 	],
 	"items": [
 		{
-			"weekday": "Tisdag",
+			"weekday": "Torsdag",
 			"class": "all",
-			"week": "2",
-			"date": "12 Januari",
-			"subject": "Skola",
-			"type": "special",
-			"title": "Skolstart",
-			"text": ["Skolstart"]
+			"week": "6",
+			"date": "11 Febrauri",
+			"subject": "NO",
+			"type": "test",
+			"title": "Prov",
+			"text": ["Prov"]
 		}
 	]
 }
