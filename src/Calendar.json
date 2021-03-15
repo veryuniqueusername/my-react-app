@@ -17,17 +17,15 @@
 	],
 	"items": [
 		{
-			"weekday": "Hela veckan",
-			"class": "all",
-			"week": "8",
-			"date": "2 - 8 Februari",
-			"subject": "Skola",
+			"weekday": "Torsdag",
+			"class": "blue",
+			"week": "11",
+			"date": "18 Mars",
+			"subject": "Svenska",
 			"type": "special",
-			"title": "Distans",
+			"title": "Vägledningscentrum",
 			"text": [
-				"Hela vecka 8 har högstadiet distansundervisning.",
-				"Detta är en rekommendation från Smittskyddet och Grundskoleförvaltningen för att minska smittspridningen.",
-				"Mer information kommer ut på Hjärntorget under veckan."
+				"Lektion börjar tio minuter tidigare vid 13:30."
 			]
 		}
 	]
