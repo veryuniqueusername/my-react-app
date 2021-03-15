@@ -17,6 +17,18 @@
 	],
 	"items": [
 		{
+			"weekday": "Tisdag",
+			"class": "blue",
+			"week": "11",
+			"date": "16 Mars",
+			"subject": "NO",
+			"type": "test",
+			"title": "Kolväten",
+			"text": [
+				"Test om kolväten som vi har lärt oss senaste lektionerna."
+			]
+		},
+		{
 			"weekday": "Torsdag",
 			"class": "blue",
 			"week": "11",
