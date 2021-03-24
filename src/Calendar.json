@@ -17,27 +17,15 @@
 	],
 	"items": [
 		{
-			"weekday": "Tisdag",
-			"class": "blue",
-			"week": "11",
-			"date": "16 Mars",
-			"subject": "NO",
-			"type": "test",
-			"title": "Kolväten",
-			"text": [
-				"Test om kolväten som vi har lärt oss senaste lektionerna."
-			]
-		},
-		{
-			"weekday": "Torsdag",
-			"class": "blue",
-			"week": "11",
-			"date": "18 Mars",
-			"subject": "Svenska",
+			"weekday": "",
+			"class": "all",
+			"week": "",
+			"date": "",
+			"subject": "",
 			"type": "special",
-			"title": "Vägledningscentrum",
+			"title": "Hjärntorget",
 			"text": [
-				"Lektion börjar tio minuter tidigare vid 13:30."
+				"Bara kolla [Hjärntorget](https://hjarntorget.goteborg.se/courseId/170332/calendar.do?mode=start&course_id=170332)."
 			]
 		}
 	]
